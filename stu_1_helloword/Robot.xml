@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<robot-info>
+    <robot>
+        <name>example2_Helloworld</name>
+        <version>1.0.1</version>
+        <obfuscate>false</obfuscate>
+        <designer>studio</designer>
+        <createTime>1646917589078</createTime>
+        <lastModified>1646918125985</lastModified>
+        <description></description>
+        <assetType>project</assetType>
+    </robot>
+    <studio>
+        <version>2.18.0</version>
+        <version_full>2.18.0</version_full>
+    </studio>
+    <requirements/>
+    <officialPlugins>
+        <plugin>
+            <name>wa.common</name>
+        </plugin>
+    </officialPlugins>
+</robot-info>
