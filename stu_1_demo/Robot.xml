@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <robot-info>
     <robot>
-        <name>example2_Helloworld</name>
+        <name>stu_1_demo</name>
         <version>1.0.1</version>
         <obfuscate>false</obfuscate>
         <designer>studio</designer>

@@ -1,0 +1,6 @@
+[2022-09-12 18:34:57]启动机器人 3.0.0
+[2022-09-12 18:34:57]开始执行[脚本] [example3_getPhonePrice]
+[OK][2022-09-12 18:35:05]完成执行[原子命令] [playbackScript.xml 第4行] 打开网页 [None] [OK]
+[OK][2022-09-12 18:35:23]完成执行[原子命令] [playbackScript.xml 第13行] 鼠标单击 [手机] [OK]
+[NOK][2022-09-12 18:37:03]完成执行[原子命令] [playbackScript.xml 第24行] 鼠标单击网页元素 [Mate系列] [NOK] [RobotWebPluginError] [系统执行错误: web插件执行失败，报错详情：can not found element]
+[2022-09-12 18:37:03]完成执行[脚本] [example3_getPhonePrice] [NOK] [RobotWebPluginError] [系统执行错误: web插件执行失败，报错详情：can not found element]

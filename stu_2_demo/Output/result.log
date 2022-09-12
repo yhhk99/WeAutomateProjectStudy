@@ -1,0 +1,236 @@
+[2022-09-12 20:32:52,987] [INFO] - studio.logger(common_log:178) - 启动机器人 3.0.0
+[2022-09-12 20:32:52,993] [INFO] - studio.logger(common_log:178) - 开始执行[脚本] [stu_2_demo]
+[2022-09-12 20:32:53,124] [INFO] - com.huawei.antrobot.utils.communication.communication(is_available_service:67) - test service: password******ully
+[2022-09-12 20:32:53,124] [INFO] - worker.robot.robot(__set_service_running:157) - service started for password******encrypt******decrypt******
+[2022-09-12 20:32:53,366] [INFO] - com.huawei.antrobot.parser.input_parser.input_parser(get_input_variables_or_excel_data:67) - run with variables.json file
+[2022-09-12 20:32:53,367] [INFO] - com.huawei.antrobot.parser.input_parser.input_parser(parse_parameters_json:123) - run with parameters.json file
+[2022-09-12 20:32:53,367] [INFO] - com.huawei.antrobot.framework.decryption.password_util.password_util(parse_json_file:48) - begin to parse parameters.json file
+[2022-09-12 20:32:53,368] [INFO] - com.huawei.antrobot.framework.decryption.password_util.password_util(parse_decrypt_json_data_to_list:66) - begin to parse parameters.json data to context
+[2022-09-12 20:32:53,372] [INFO] - worker.robot.robot(run:115) - run robot without variables.json and excel data
+[2022-09-12 20:32:53,372] [INFO] - com.huawei.antrobot.parser.xml2model.xml2model(parse:109) - Begin parse xml file
+[2022-09-12 20:32:53,411] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running logic: robot line:0 [None] in playbackScript.xml
+[2022-09-12 20:32:53,411] [INFO] - com.huawei.antrobot.parser.xml2model.xml2model(parse:109) - Begin parse xml file
+[2022-09-12 20:32:53,497] [INFO] - studio.logger(common_log:178) - 开始执行[子脚本] [playbackScript.xml 第4行] 调用子脚本 (subscript01_openWeb.xml) [调用子脚本]
+[2022-09-12 20:32:53,497] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running logic: robot line:4 [调用子脚本] in playbackScript.xml
+[2022-09-12 20:32:53,498] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running action: openUrl line:4 [None] in subscript01_openWeb.xml
+[2022-09-12 20:32:54,201] [INFO] - wa_uiweb.web.web_auto_utils.web_auto_utils(check_browser_exist_by_window:199) - succeed to find chrome window
+[2022-09-12 20:32:54,201] [INFO] - wa_uiweb.web.web_auto_utils.web_auto_utils(inner:54) - start to execute function: active_browser_window
+[2022-09-12 20:32:54,248] [WARNING] - wa_uiweb.web.web_auto_utils.web_auto_utils(active_browser_window:89) - active window exist
+[2022-09-12 20:32:54,257] [INFO] - wa_uiweb.web.web_auto_utils.web_auto_utils(inner:56) - succeed to execute function: active_browser_window
+[2022-09-12 20:32:54,259] [INFO] - wa_uiweb.web_auto.web_auto_utils(inner:54) - start to execute function: execute_command_by_websocket
+[2022-09-12 20:32:54,312] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:54,423] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:54,535] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:54,646] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:54,757] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:54,869] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:54,980] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:55,091] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:55,201] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:55,311] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:55,422] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:55,531] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:55,641] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:55,750] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:55,859] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:55,969] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:56,078] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:56,187] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:56,296] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:56,405] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:56,516] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:56,626] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:56,736] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:56,845] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:56,955] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:57,065] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:57,173] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:57,283] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:57,393] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:57,502] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:57,612] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:57,722] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:57,834] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:57,944] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:58,053] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:58,163] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:58,274] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:58,384] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:58,493] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:58,602] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:58,711] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:58,822] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:58,932] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:59,042] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:59,151] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:59,262] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:59,371] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:59,481] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:59,590] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:59,700] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:59,810] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:32:59,919] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:00,029] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:00,140] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:00,249] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:00,357] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:00,466] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:00,576] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:00,687] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:00,797] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:00,907] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:01,018] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:01,127] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:01,236] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:01,345] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:01,455] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:01,564] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:01,674] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:01,784] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:01,895] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:02,005] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:02,116] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:02,227] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:02,337] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:02,447] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:02,557] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:02,667] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:02,777] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:02,885] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:02,994] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:03,102] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:03,214] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:03,324] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:03,432] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:03,542] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:03,651] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:03,761] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:03,871] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:03,981] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:04,090] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:04,198] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:04,309] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:04,419] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:04,528] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:04,637] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:04,747] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:04,857] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:04,965] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:05,074] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:05,185] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:05,294] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:05,404] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:05,514] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:05,623] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:05,732] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:05,841] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:05,950] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:06,059] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:06,168] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:06,279] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:06,389] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:06,500] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:06,610] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:06,719] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:06,829] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:06,886] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_get:78) - Ready to receive data!
+[2022-09-12 20:33:06,887] [INFO] - wa_uiweb.web_auto.web_auto_utils(inner:56) - succeed to execute function: execute_command_by_websocket
+[2022-09-12 20:33:06,891] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running action: openUrl line:4 [None] in subscript01_openWeb.xml with result:True
+[2022-09-12 20:33:06,893] [INFO] - studio.logger(common_log:178) - 完成执行[原子命令] [subscript01_openWeb.xml 第4行] 打开网页 [None] [OK]
+[2022-09-12 20:33:06,894] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running action: click line:13 [Mate系列] in subscript01_openWeb.xml
+[2022-09-12 20:33:07,404] [INFO] - wa_uiweb.web.web_auto_utils.web_auto_utils(check_browser_exist_by_window:199) - succeed to find chrome window
+[2022-09-12 20:33:07,404] [INFO] - wa_uiweb.web.web_auto_utils.web_auto_utils(inner:54) - start to execute function: active_browser_window
+[2022-09-12 20:33:07,407] [WARNING] - wa_uiweb.web.web_auto_utils.web_auto_utils(active_browser_window:89) - active window exist
+[2022-09-12 20:33:07,409] [INFO] - wa_uiweb.web.web_auto_utils.web_auto_utils(inner:56) - succeed to execute function: active_browser_window
+[2022-09-12 20:33:07,409] [INFO] - wa_uiweb.web_auto.web_auto_utils(inner:54) - start to execute function: execute_command_by_websocket
+[2022-09-12 20:33:07,496] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:07,706] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_get:78) - Ready to receive data!
+[2022-09-12 20:33:07,706] [INFO] - wa_uiweb.web_auto.web_auto_utils(inner:56) - succeed to execute function: execute_command_by_websocket
+[2022-09-12 20:33:07,707] [INFO] - wa_uiweb.web_auto.web_auto_utils(inner:54) - start to execute function: execute_command_by_websocket
+[2022-09-12 20:33:07,719] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:07,814] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_get:78) - Ready to receive data!
+[2022-09-12 20:33:07,815] [INFO] - wa_uiweb.web_auto.web_auto_utils(inner:56) - succeed to execute function: execute_command_by_websocket
+[2022-09-12 20:33:07,815] [INFO] - wa_uiweb.web_auto.web_auto_utils(inner:54) - start to execute function: execute_command_by_websocket
+[2022-09-12 20:33:07,830] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:07,924] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_get:78) - Ready to receive data!
+[2022-09-12 20:33:07,925] [INFO] - wa_uiweb.web_auto.web_auto_utils(inner:56) - succeed to execute function: execute_command_by_websocket
+[2022-09-12 20:33:07,940] [INFO] - wa_uiweb.web.web_auto_utils.web_auto_utils(get_web_page_coordinates:463) - The obtained coordinates of the page are (0, 102, 1536, 864)
+[2022-09-12 20:33:08,514] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running action: click line:13 [Mate系列] in subscript01_openWeb.xml with result:True
+[2022-09-12 20:33:08,514] [INFO] - studio.logger(common_log:178) - 完成执行[原子命令] [subscript01_openWeb.xml 第13行] 鼠标单击网页元素 [Mate系列] [OK]
+[2022-09-12 20:33:08,515] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running action: type line:25 [在网页中输入文本] in subscript01_openWeb.xml
+[2022-09-12 20:33:08,519] [INFO] - wa_uiweb.web.web_auto_utils.web_auto_utils(check_browser_exist_by_window:199) - succeed to find chrome window
+[2022-09-12 20:33:08,520] [INFO] - wa_uiweb.web_auto.web_auto_utils(inner:54) - start to execute function: execute_command_by_websocket
+[2022-09-12 20:33:08,604] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:08,643] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_get:78) - Ready to receive data!
+[2022-09-12 20:33:08,644] [INFO] - wa_uiweb.web_auto.web_auto_utils(inner:56) - succeed to execute function: execute_command_by_websocket
+[2022-09-12 20:33:08,647] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running action: type line:25 [在网页中输入文本] in subscript01_openWeb.xml with result:True
+[2022-09-12 20:33:08,648] [INFO] - studio.logger(common_log:178) - 完成执行[原子命令] [subscript01_openWeb.xml 第25行] 在网页中输入文本 [在网页中输入文本] [OK]
+[2022-09-12 20:33:08,649] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running action: click line:37 [鼠标单击网页元素] in subscript01_openWeb.xml
+[2022-09-12 20:33:08,652] [INFO] - wa_uiweb.web.web_auto_utils.web_auto_utils(check_browser_exist_by_window:199) - succeed to find chrome window
+[2022-09-12 20:33:08,652] [INFO] - wa_uiweb.web_auto.web_auto_utils(inner:54) - start to execute function: execute_command_by_websocket
+[2022-09-12 20:33:08,715] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:08,747] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_get:78) - Ready to receive data!
+[2022-09-12 20:33:08,748] [INFO] - wa_uiweb.web_auto.web_auto_utils(inner:56) - succeed to execute function: execute_command_by_websocket
+[2022-09-12 20:33:08,753] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running action: click line:37 [鼠标单击网页元素] in subscript01_openWeb.xml with result:True
+[2022-09-12 20:33:08,754] [INFO] - studio.logger(common_log:178) - 完成执行[原子命令] [subscript01_openWeb.xml 第37行] 鼠标单击网页元素 [鼠标单击网页元素] [OK]
+[2022-09-12 20:33:08,755] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running action: moveToElement line:48 [鼠标移动到某元素] in subscript01_openWeb.xml
+[2022-09-12 20:33:08,758] [INFO] - wa_uiweb.web.web_auto_utils.web_auto_utils(check_browser_exist_by_window:199) - succeed to find chrome window
+[2022-09-12 20:33:08,759] [INFO] - wa_uiweb.web_auto.web_auto_utils(inner:54) - start to execute function: execute_command_by_websocket
+[2022-09-12 20:33:08,826] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:09,265] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_get:78) - Ready to receive data!
+[2022-09-12 20:33:09,266] [INFO] - wa_uiweb.web_auto.web_auto_utils(inner:56) - succeed to execute function: execute_command_by_websocket
+[2022-09-12 20:33:09,269] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running action: moveToElement line:48 [鼠标移动到某元素] in subscript01_openWeb.xml with result:True
+[2022-09-12 20:33:09,270] [INFO] - studio.logger(common_log:178) - 完成执行[原子命令] [subscript01_openWeb.xml 第48行] 鼠标移动到某元素 [鼠标移动到某元素] [OK]
+[2022-09-12 20:33:09,271] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running action: click line:59 [鼠标单击网页元素] in subscript01_openWeb.xml
+[2022-09-12 20:33:09,274] [INFO] - wa_uiweb.web.web_auto_utils.web_auto_utils(check_browser_exist_by_window:199) - succeed to find chrome window
+[2022-09-12 20:33:09,274] [INFO] - wa_uiweb.web_auto.web_auto_utils(inner:54) - start to execute function: execute_command_by_websocket
+[2022-09-12 20:33:09,378] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:09,436] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_get:78) - Ready to receive data!
+[2022-09-12 20:33:09,436] [INFO] - wa_uiweb.web_auto.web_auto_utils(inner:56) - succeed to execute function: execute_command_by_websocket
+[2022-09-12 20:33:09,438] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running action: click line:59 [鼠标单击网页元素] in subscript01_openWeb.xml with result:True
+[2022-09-12 20:33:09,439] [INFO] - studio.logger(common_log:178) - 完成执行[原子命令] [subscript01_openWeb.xml 第59行] 鼠标单击网页元素 [鼠标单击网页元素] [OK]
+[2022-09-12 20:33:09,439] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running action: moveToElement line:70 [鼠标移动到某元素] in subscript01_openWeb.xml
+[2022-09-12 20:33:09,442] [INFO] - wa_uiweb.web.web_auto_utils.web_auto_utils(check_browser_exist_by_window:199) - succeed to find chrome window
+[2022-09-12 20:33:09,442] [INFO] - wa_uiweb.web_auto.web_auto_utils(inner:54) - start to execute function: execute_command_by_websocket
+[2022-09-12 20:33:09,489] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:12,632] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_get:78) - Ready to receive data!
+[2022-09-12 20:33:12,632] [INFO] - wa_uiweb.web_auto.web_auto_utils(inner:56) - succeed to execute function: execute_command_by_websocket
+[2022-09-12 20:33:12,636] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running action: moveToElement line:70 [鼠标移动到某元素] in subscript01_openWeb.xml with result:True
+[2022-09-12 20:33:12,637] [INFO] - studio.logger(common_log:178) - 完成执行[原子命令] [subscript01_openWeb.xml 第70行] 鼠标移动到某元素 [鼠标移动到某元素] [OK]
+[2022-09-12 20:33:12,637] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running action: click line:81 [鼠标单击网页元素] in subscript01_openWeb.xml
+[2022-09-12 20:33:12,639] [INFO] - wa_uiweb.web.web_auto_utils.web_auto_utils(check_browser_exist_by_window:199) - succeed to find chrome window
+[2022-09-12 20:33:12,639] [INFO] - wa_uiweb.web_auto.web_auto_utils(inner:54) - start to execute function: execute_command_by_websocket
+[2022-09-12 20:33:12,707] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:12,740] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_get:78) - Ready to receive data!
+[2022-09-12 20:33:12,740] [INFO] - wa_uiweb.web_auto.web_auto_utils(inner:56) - succeed to execute function: execute_command_by_websocket
+[2022-09-12 20:33:12,743] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running action: click line:81 [鼠标单击网页元素] in subscript01_openWeb.xml with result:True
+[2022-09-12 20:33:12,744] [INFO] - studio.logger(common_log:178) - 完成执行[原子命令] [subscript01_openWeb.xml 第81行] 鼠标单击网页元素 [鼠标单击网页元素] [OK]
+[2022-09-12 20:33:12,744] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running action: clickOnAlertDialog line:92 [操作浏览器弹框] in subscript01_openWeb.xml
+[2022-09-12 20:33:18,385] [WARNING] - wa_uiweb.web_auto.web_auto(clickonalertdialog:281) - An error occurred while traversing the lookup control: RobotLookupError:Find Control Time Out: {targettype: CustomControl}
+[2022-09-12 20:33:20,352] [INFO] - com.huawei.antrobot.plugin_common.win_uia.uia_base_control.uia_base_control(move_cursor:1283) - ButtonControl's BoundingRectangle is: (1436, 38, 1464, 67), click-pos is:(1450, 52)
+[2022-09-12 20:33:21,006] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running action: clickOnAlertDialog line:92 [操作浏览器弹框] in subscript01_openWeb.xml with result:True
+[2022-09-12 20:33:21,007] [INFO] - studio.logger(common_log:178) - 完成执行[原子命令] [subscript01_openWeb.xml 第92行] 操作浏览器弹框 [操作浏览器弹框] [OK]
+[2022-09-12 20:33:21,007] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running action: messageBox line:103 [消息窗口] in subscript01_openWeb.xml
+[2022-09-12 20:33:24,010] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running action: messageBox line:103 [消息窗口] in subscript01_openWeb.xml with result:True
+[2022-09-12 20:33:24,011] [INFO] - studio.logger(common_log:178) - 完成执行[原子命令] [subscript01_openWeb.xml 第103行] 消息窗口 [消息窗口] [OK]
+[2022-09-12 20:33:24,012] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running logic: robot line:4 [调用子脚本] in playbackScript.xml with result:True
+[2022-09-12 20:33:24,013] [INFO] - studio.logger(common_log:178) - 完成执行[子脚本] [playbackScript.xml 第4行] 调用子脚本 (subscript01_openWeb.xml) [调用子脚本] [OK]
+[2022-09-12 20:33:24,014] [INFO] - studio.logger(common_log:178) - 开始执行[语句块] [playbackScript.xml 第5行] 功能块 (名称: block) [功能块]
+[2022-09-12 20:33:24,015] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running logic: block line:5 [功能块] in playbackScript.xml
+[2022-09-12 20:33:24,017] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running action: extractWebData line:6 [网页数据拾取] in playbackScript.xml
+[2022-09-12 20:33:24,023] [INFO] - wa_uiweb.web.web_auto_utils.web_auto_utils(check_browser_exist_by_window:199) - succeed to find chrome window
+[2022-09-12 20:33:24,023] [INFO] - wa_uiweb.web_auto.web_auto_utils(inner:54) - start to execute function: execute_command_by_websocket
+[2022-09-12 20:33:24,115] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_send:123) - Ready to send data!
+[2022-09-12 20:33:24,171] [INFO] - com.huawei.antrobot.utils.websocket_server.websocket_server(ws_get:78) - Ready to receive data!
+[2022-09-12 20:33:24,171] [INFO] - wa_uiweb.web_auto.web_auto_utils(inner:56) - succeed to execute function: execute_command_by_websocket
+[2022-09-12 20:33:24,598] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running action: extractWebData line:6 [网页数据拾取] in playbackScript.xml with result:True
+[2022-09-12 20:33:24,598] [INFO] - studio.logger(common_log:178) - 完成执行[原子命令] [playbackScript.xml 第6行] 网页数据拾取 [网页数据拾取] [OK]
+[2022-09-12 20:33:24,599] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running action: messageBox line:21 [消息窗口] in playbackScript.xml
+[2022-09-12 20:33:27,740] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running action: messageBox line:21 [消息窗口] in playbackScript.xml with result:True
+[2022-09-12 20:33:27,741] [INFO] - studio.logger(common_log:178) - 完成执行[原子命令] [playbackScript.xml 第21行] 消息窗口 [消息窗口] [OK]
+[2022-09-12 20:33:27,742] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running logic: block line:5 [功能块] in playbackScript.xml with result:True
+[2022-09-12 20:33:27,742] [INFO] - studio.logger(common_log:178) - 完成执行[语句块] [playbackScript.xml 第5行] 功能块 (名称: block) [功能块] [OK]
+[2022-09-12 20:33:27,743] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running logic: robot line:0 [None] in playbackScript.xml with result:True
+[2022-09-12 20:33:27,743] [INFO] - studio.logger(common_log:178) - 完成执行[脚本] [stu_2_demo] [OK]
+[2022-09-12 20:33:27,770] [INFO] - studio.logger(common_log:178) - 结束机器人
+[2022-09-12 20:33:27,771] [INFO] - __main__.antrobot(<module>:118) - robot finished

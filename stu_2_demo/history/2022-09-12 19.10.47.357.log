@@ -1,0 +1,10 @@
+[2022-09-12 19:10:47]启动机器人 3.0.0
+[2022-09-12 19:10:47]开始执行[脚本] [example3_getPhonePrice]
+[OK][2022-09-12 19:10:49]完成执行[原子命令] [playbackScript.xml 第4行] 打开网页 [None] [OK]
+[OK][2022-09-12 19:10:50]完成执行[原子命令] [playbackScript.xml 第13行] 鼠标单击网页元素 [Mate系列] [OK]
+[OK][2022-09-12 19:10:52]完成执行[原子命令] [playbackScript.xml 第25行] 鼠标单击网页元素 [HUAWEI Mat…] [OK]
+[OK][2022-09-12 19:11:01]完成执行[原子命令] [playbackScript.xml 第37行] 操作浏览器弹框 [操作浏览器弹框] [OK]
+[OK][2022-09-12 19:11:07]完成执行[原子命令] [playbackScript.xml 第48行] 消息窗口 [消息窗口] [OK]
+[NOK][2022-09-12 19:11:37]完成执行[原子命令] [playbackScript.xml 第54行] 获取网页文本 [获取网页文本] [NOK] [RobotWebPluginError] [系统执行错误: web插件执行失败，报错详情：The page was not found. Please check whether the title or url is correct.]
+[2022-09-12 19:11:37]完成执行[脚本] [example3_getPhonePrice] [NOK] [RobotWebPluginError] [系统执行错误: web插件执行失败，报错详情：The page was not found. Please check whether the title or url is correct.]
+[2022-09-12 19:11:37]结束机器人

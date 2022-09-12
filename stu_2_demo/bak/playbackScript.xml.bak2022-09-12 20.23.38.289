@@ -1,0 +1,71 @@
+<antrobot version="2.0" developers="yhhk" desc="">
+    <procedures>
+        <procedure>
+            <action xmlId="4b8efe73-ba65-4586-9d5f-24f7508b3a7e" callScript="subscript01_openWeb.xml" ext_name="wa.logic" desc="调用子脚本"/>
+            <Block xmlId="efa7efaf-b80d-40b9-82ff-5a82c7446589" ext_name="wa.logic" desc="功能块" name="block">
+                <action xmlId="9465d547-0e44-4ba8-b4f0-07da56ebd896" ext_name="wa.uiweb" driver_type="uicommon" desc="网页数据拾取" return="webdata_ret" fail_on_error="True">
+                    <command>extractWebData</command>
+                    <params>
+                        <param name="target">{"appName":"chrome.exe","title":"《论十大关系》毛泽东 - 知乎","target":[{"ControlType":"window","title":"《论十大关系》毛泽东 - 知乎","url":"https://zhuanlan.zhihu.com/p/67736891"},{"xpath":["//div[@id='root']/div/main/div/article/div/div/div/p[3]","//div[@id='root']/div/main/div/article/div/div/div/p[5]","//html/body/div/div/main/div/article/div/div/div/p[3]","//html/body/div/div/main/div/article/div/div/div/p[5]"]}],"next-page-button":[],"settings":{"contents":["text"],"only-range":false,"selectPage":"current","total-pages":"","next-page-delay":"1000","getType":"similarElement","modified-columns":[]}}</param>
+                        <param name="save-path">@{WORK_DIR}\getPhonePrice.xlsx</param>
+                    </params>
+                    <properties>
+                        <webDataExtractionGuide>
+                            <first-element>{"appName":"chrome.exe","title":"《论十大关系》毛泽东 - 知乎","target":[{"index":9,"ControlType":"window","title":"《论十大关系》毛泽东 - 知乎","url":"https://zhuanlan.zhihu.com/p/67736891"},{"xpath":["//*[contains(text(),'这是毛泽东在中共中央政治局扩大会议上的讲')]","//div[@id='root']/div/main/div/article/div/div/div/p[3]","//html/body/div/div/main/div/article/div/div/div/p[3]"],"css":[],"origin":"https://zhuanlan.zhihu.com","description":"这是毛泽东在中共中央政治局扩大会议上的讲…","ControlType":"element","tagName":"p"}]}</first-element>
+                            <first-element-shot>screenShot1662983333345.png</first-element-shot>
+                            <similar-element>{"appName":"chrome.exe","title":"《论十大关系》毛泽东 - 知乎","target":[{"index":9,"ControlType":"window","title":"《论十大关系》毛泽东 - 知乎","url":"https://zhuanlan.zhihu.com/p/67736891"},{"xpath":["//*[contains(text(),'最近几个月，中央政治局听了中央工业、农业')]","//div[@id='root']/div/main/div/article/div/div/div/p[5]","//html/body/div/div/main/div/article/div/div/div/p[5]"],"css":[],"origin":"https://zhuanlan.zhihu.com","description":"最近几个月，中央政治局听了中央工业、农业…","ControlType":"element","tagName":"p"}]}</similar-element>
+                            <similar-element-shot>screenShot1662983339270.png</similar-element-shot>
+                        </webDataExtractionGuide>
+                    </properties>
+                </action>
+                <action xmlId="ecf70966-d910-437b-8e0f-49763cbe4c5c" ext_name="wa.common" driver_type="common" desc="消息窗口" return="messageBox_ret" fail_on_error="True">
+                    <command>messageBox</command>
+                    <params>
+                        <param name="value">@{webdata_ret}</param>
+                    </params>
+                </action>
+            </Block>
+        </procedure>
+    </procedures>
+    <canvas>
+        <layers>
+            <layer id="rootLayer"/>
+            <layer id="mainLayer" parentLayerId="rootLayer"/>
+            <layer id="Block&amp;efa7efaf-b80d-40b9-82ff-5a82c7446589" parentLayerId="mainLayer"/>
+        </layers>
+        <vertices>
+            <vertex id="1" parent="mainLayer" isStart="true">
+                <geometry x="-593.5000242086567" y="100" width="72" height="40"/>
+            </vertex>
+            <vertex id="33" parent="Block&amp;efa7efaf-b80d-40b9-82ff-5a82c7446589" isStart="true">
+                <geometry x="591.5" y="110" width="72" height="40"/>
+            </vertex>
+            <vertex id="4b8efe73-ba65-4586-9d5f-24f7508b3a7e" parent="mainLayer">
+                <geometry x="-663.50026184082" y="193.0657715379146" width="213.99038696289062" height="109.73558044433594"/>
+            </vertex>
+            <vertex id="efa7efaf-b80d-40b9-82ff-5a82c7446589" parent="mainLayer">
+                <geometry x="-663.50026184082" y="362.80135198225054" width="213.99038696289062" height="100.99759674072266"/>
+            </vertex>
+            <vertex id="9465d547-0e44-4ba8-b4f0-07da56ebd896" parent="Block&amp;efa7efaf-b80d-40b9-82ff-5a82c7446589">
+                <geometry x="519.4855804443359" y="220" width="215.98558044433594" height="198.9302978515625"/>
+            </vertex>
+            <vertex id="ecf70966-d910-437b-8e0f-49763cbe4c5c" parent="Block&amp;efa7efaf-b80d-40b9-82ff-5a82c7446589">
+                <geometry x="519.49" y="460.00235870361314" width="215.98558044433594" height="90.98558044433594"/>
+            </vertex>
+        </vertices>
+        <edges>
+            <edge id="32" source="1" target="4b8efe73-ba65-4586-9d5f-24f7508b3a7e" style="exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="34" source="4b8efe73-ba65-4586-9d5f-24f7508b3a7e" target="efa7efaf-b80d-40b9-82ff-5a82c7446589" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="35" source="9465d547-0e44-4ba8-b4f0-07da56ebd896" target="ecf70966-d910-437b-8e0f-49763cbe4c5c" style="exitX=0;exitY=0.5;entryX=1;entryY=0.5;" parent="Block&amp;efa7efaf-b80d-40b9-82ff-5a82c7446589">
+                <points/>
+            </edge>
+            <edge id="37" source="33" target="9465d547-0e44-4ba8-b4f0-07da56ebd896" style="exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="Block&amp;efa7efaf-b80d-40b9-82ff-5a82c7446589">
+                <points/>
+            </edge>
+        </edges>
+    </canvas>
+</antrobot>

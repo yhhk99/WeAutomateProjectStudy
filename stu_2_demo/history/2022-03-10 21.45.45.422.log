@@ -1,0 +1,6 @@
+[2022-03-10 21:45:45]启动机器人 2.18.0
+[2022-03-10 21:45:45]开始执行[脚本] [example3_getPhonePrice]
+[OK][2022-03-10 21:45:49]完成执行[原子命令] [playbackScript.xml 第4行] 打开网页 [None] [OK]
+[NOK][2022-03-10 21:46:26]完成执行[原子命令] [playbackScript.xml 第13行] 鼠标单击 [手机] [NOK] [RobotLookupError] [系统执行错误: 查找控制 {'ClassName': 'Chrome_WidgetWin_1', 'x': '4248', 'width': '124', 'y': '0', 'ControlType': 'PaneControl', 'Name': '华为商城VMALL-华为手机、笔记本、平板、穿戴、官网正品保障 - Google Chrome', 'height': '44'} 超时]
+[2022-03-10 21:46:26]完成执行[脚本] [example3_getPhonePrice] [NOK] [RobotLookupError] [系统执行错误: 查找控制 {'ClassName': 'Chrome_WidgetWin_1', 'x': '4248', 'width': '124', 'y': '0', 'ControlType': 'PaneControl', 'Name': '华为商城VMALL-华为手机、笔记本、平板、穿戴、官网正品保障 - Google Chrome', 'height': '44'} 超时]
+[2022-03-10 21:46:26]结束机器人

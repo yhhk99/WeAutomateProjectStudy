@@ -1,0 +1,184 @@
+<antrobot version="2.0" developers="yhhk" desc="打开需要演示的网页">
+    <procedures>
+        <procedure>
+            <action ext_name="wa.uiweb" driver_type="uicommon" xmlId="bf7f83d1-9392-4636-a871-b1272ba1a28d">
+                <command>openUrl</command>
+                <params>
+                    <param name="browser">chrome</param>
+                    <param name="url">https://www.baidu.com</param>
+                    <param name="delay">500</param>
+                    <param name="timeout">30000</param>
+                </params>
+            </action>
+            <action ext_name="wa.uiweb" driver_type="uicommon" xmlId="1d59ed61-faba-4313-986c-009d2ed63f8e" desc="Mate系列">
+                <command>click</command>
+                <params>
+                    <param name="target">{"appName":"chrome.exe","title":"百度一下，你就知道","target":[{"index":8,"ControlType":"window","title":"百度一下，你就知道","url":"https://www.baidu.com/"},{"xpath":["//input[@id='kw']","//form[@id='form']/span/input","//html/body/div/div/div[5]/div/div/form/span/input"],"css":["#kw"],"origin":"https://www.baidu.com","name":"wd","description":"tagName INPUT","ControlType":"element","id":"kw","tagName":"input"}]}</param>
+                    <param name="manual-click">True</param>
+                    <param name="delay">500</param>
+                    <param name="timeout">30000</param>
+                </params>
+                <properties>
+                    <screenShot>screenShot1662981176133.png</screenShot>
+                </properties>
+            </action>
+            <action xmlId="27733d01-2018-4a25-a103-0f68a562376a" ext_name="wa.uiweb" driver_type="uicommon" desc="在网页中输入文本" fail_on_error="True">
+                <command>type</command>
+                <params>
+                    <param name="clear-before-type">True</param>
+                    <param name="tab-status">complete</param>
+                    <param name="target">{"appName":"chrome.exe","title":"百度一下，你就知道","target":[{"index":8,"ControlType":"window","title":"百度一下，你就知道","url":"https://www.baidu.com/"},{"xpath":["//input[@id='kw']","//form[@id='form']/span/input","//html/body/div/div/div[5]/div/div/form/span/input"],"css":["#kw"],"origin":"https://www.baidu.com","name":"wd","description":"tagName INPUT","ControlType":"element","id":"kw","tagName":"input"}]}</param>
+                    <param name="value">@{input_search_text}</param>
+                </params>
+                <properties>
+                    <screenShot>screenShot1662981224983.png</screenShot>
+                </properties>
+            </action>
+            <action xmlId="b5c52008-3ca4-461c-8576-8890e72666a2" ext_name="wa.uiweb" driver_type="uicommon" desc="鼠标单击网页元素" fail_on_error="True">
+                <command>click</command>
+                <params>
+                    <param name="manual-click">False</param>
+                    <param name="tab-status">complete</param>
+                    <param name="target">{"appName":"chrome.exe","title":"百度一下，你就知道","target":[{"index":8,"ControlType":"window","title":"百度一下，你就知道","url":"https://www.baidu.com/"},{"xpath":["//input[@id='su']","//form[@id='form']/span[2]/input","//html/body/div/div/div[5]/div/div/form/span[2]/input"],"css":["#su"],"origin":"https://www.baidu.com","description":"[百度一下]","ControlType":"element","id":"su","tagName":"input"}]}</param>
+                </params>
+                <properties>
+                    <screenShot>screenShot1662981271739.png</screenShot>
+                </properties>
+            </action>
+            <action xmlId="e01f9d48-f8c6-4bdd-afab-04c4d9825b2b" ext_name="wa.uiweb" driver_type="uicommon" desc="鼠标移动到某元素" fail_on_error="True">
+                <command>moveToElement</command>
+                <params>
+                    <param name="manual-move">False</param>
+                    <param name="tab-status">complete</param>
+                    <param name="target">{"appName":"chrome.exe","title":"论十大关系 知乎_百度搜索","target":[{"index":9,"ControlType":"window","title":"论十大关系 知乎_百度搜索","url":"https://www.baidu.com/s?ie=utf-8&amp;f=8&amp;rsv_bp=1&amp;rsv_idx=1&amp;tn=baidu&amp;wd=%E8%AE%BA%E5%8D%81%E5%A4%A7%E5%85%B3%E7%B3%BB%20%E7%9F%A5%E4%B9%8E&amp;fenlei=256&amp;rsv_pq=d3c8aebc00042b6d&amp;rsv_t=78fbHh8oGOR%2B8qVVttIznuK%2FHOdYW9neLF%2BfMg57Przxsa9bdRGkkACTtJEg&amp;rqlang=en&amp;rsv_dl=tb&amp;rsv_enter=1&amp;rsv_sug3=2&amp;rsv_sug1=1&amp;rsv_sug7=001&amp;rsv_btype=i&amp;prefixsug=%25E8%25AE%25BA%25E5%258D%2581%25E5%25A4%25A7%25E5%2585%25B3%25E7%25B3%25BB%2520%25E7%259F%25A5%25E4%25B9%258E&amp;rsp=5&amp;rsv_sug9=es_0_1&amp;rsv_sug4=656&amp;rsv_sug=9"},{"xpath":["//*[contains(text(),'《')]","//a[@class='\n                ']","//div[@id='1']/div/div/h3/a","//a[@href='http://www.baidu.com/link?url=geiX12G3cpmzAQTWifVBq4N_y8h3iTWfz0XKtQCrxmkBUgsi8lrDtZxXLnJetamt']","//html/body/div[2]/div[3]/div/div[3]/div/div/div/h3/a"],"css":[],"origin":"https://www.baidu.com","link":"《论十大关系》毛泽东 - 知乎","description":"《论十大关系》毛泽东 - 知乎","ControlType":"element","tagName":"a"}]}</param>
+                </params>
+                <properties>
+                    <screenShot>screenShot1662982247482.png</screenShot>
+                </properties>
+            </action>
+            <action xmlId="c6b23955-5a09-45e8-97b8-a0b0eb92b649" ext_name="wa.uiweb" driver_type="uicommon" desc="鼠标单击网页元素" fail_on_error="True">
+                <command>click</command>
+                <params>
+                    <param name="manual-click">False</param>
+                    <param name="tab-status">complete</param>
+                    <param name="target">{"appName":"chrome.exe","title":"论十大关系 知乎_百度搜索","target":[{"index":8,"ControlType":"window","title":"论十大关系 知乎_百度搜索","url":"https://www.baidu.com/s?ie=utf-8&amp;f=8&amp;rsv_bp=1&amp;rsv_idx=1&amp;tn=baidu&amp;wd=%E8%AE%BA%E5%8D%81%E5%A4%A7%E5%85%B3%E7%B3%BB%20%E7%9F%A5%E4%B9%8E&amp;fenlei=256&amp;rsv_pq=92f4c2c4000658b7&amp;rsv_t=11f1qcFRxNCBS8fwRIGTd6wHTO8qlAQ9iUdE7SN%2F0nPyAVgmGWRLSiyc1nyc&amp;rqlang=en&amp;rsv_dl=tb&amp;rsv_enter=1&amp;rsv_sug3=2&amp;rsv_sug1=1&amp;rsv_sug7=001&amp;rsv_btype=i&amp;rsv_sug4=683&amp;rsv_sug=9"},{"xpath":["//*[contains(text(),'《')]","//a[@class='\n                ']","//div[@id='1']/div/div/h3/a","//a[@href='http://www.baidu.com/link?url=QHxLmyY7bCpWfd09phFpzDkj5V8vruNUypbQJYfevqJ0JOtkJ9pMsCnjw-8HTYdl']","//html/body/div[2]/div[3]/div/div[3]/div/div/div/h3/a"],"css":[],"origin":"https://www.baidu.com","link":"《论十大关系》毛泽东 - 知乎","description":"《论十大关系》毛泽东 - 知乎","ControlType":"element","tagName":"a"}]}</param>
+                </params>
+                <properties>
+                    <screenShot>screenShot1662982304346.png</screenShot>
+                </properties>
+            </action>
+            <action xmlId="b217e55a-7a19-4574-960d-e434ed6c1ebe" ext_name="wa.uiweb" driver_type="uicommon" desc="鼠标移动到某元素" fail_on_error="True">
+                <command>moveToElement</command>
+                <params>
+                    <param name="manual-move">False</param>
+                    <param name="tab-status">complete</param>
+                    <param name="target">{"appName":"chrome.exe","title":"《论十大关系》毛泽东 - 知乎","target":[{"index":9,"ControlType":"window","title":"《论十大关系》毛泽东 - 知乎","url":"https://zhuanlan.zhihu.com/p/67736891"},{"xpath":["//div[4]/div/div/div/div[2]/button/*[name()='svg']/*[name()='path']","//html/body/div[4]/div/div/div/div[2]/button/svg/path"],"css":["svg.Zi.Zi--Close.Modal-closeIcon &gt; path"],"origin":"https://zhuanlan.zhihu.com","description":"tagName path","ControlType":"element","tagName":"path"}]}</param>
+                </params>
+                <properties>
+                    <screenShot>screenShot1662982346788.png</screenShot>
+                </properties>
+            </action>
+            <action xmlId="e514dbf5-07ed-4df0-a612-e2beeece25f5" ext_name="wa.uiweb" driver_type="uicommon" desc="鼠标单击网页元素" fail_on_error="True">
+                <command>click</command>
+                <params>
+                    <param name="manual-click">False</param>
+                    <param name="tab-status">complete</param>
+                    <param name="target">{"appName":"chrome.exe","title":"《论十大关系》毛泽东 - 知乎","target":[{"index":9,"ControlType":"window","title":"《论十大关系》毛泽东 - 知乎","url":"https://zhuanlan.zhihu.com/p/67736891"},{"xpath":["//div[4]/div/div/div/div[2]/button/*[name()='svg']/*[name()='path']","//html/body/div[4]/div/div/div/div[2]/button/svg/path"],"css":["svg.Zi.Zi--Close.Modal-closeIcon &gt; path"],"origin":"https://zhuanlan.zhihu.com","description":"tagName path","ControlType":"element","tagName":"path"}]}</param>
+                </params>
+                <properties>
+                    <screenShot>screenShot1662982354361.png</screenShot>
+                </properties>
+            </action>
+            <action xmlId="6a2ba17c-f52e-4174-81de-519fd4a5b9a1" ext_name="wa.uiweb" driver_type="uicommon" desc="操作浏览器弹框" fail_on_error="True">
+                <command>clickOnAlertDialog</command>
+                <params>
+                    <param name="accept">True</param>
+                    <param name="tab-status">loading</param>
+                    <param name="target">{"appName":"chrome.exe","title":"《论十大关系》毛泽东 - 知乎","target":[{"index":9,"ControlType":"window","title":"《论十大关系》毛泽东 - 知乎","url":"https://zhuanlan.zhihu.com/p/67736891"}]}</param>
+                </params>
+                <properties>
+                    <screenShot>screenShot1662982333058.png</screenShot>
+                </properties>
+            </action>
+            <action xmlId="ba3e7c75-043f-40c5-b5dd-e102fc5823a5" ext_name="wa.common" driver_type="common" desc="消息窗口" return="messageBox_ret" fail_on_error="True">
+                <command>messageBox</command>
+                <params>
+                    <param name="value">clickOnAlertDialog</param>
+                </params>
+            </action>
+        </procedure>
+    </procedures>
+    <canvas>
+        <layers>
+            <layer id="rootLayer"/>
+            <layer id="mainLayer" parentLayerId="rootLayer"/>
+        </layers>
+        <vertices>
+            <vertex id="1" parent="mainLayer" isStart="true">
+                <geometry x="1117" y="100" width="72" height="40"/>
+            </vertex>
+            <vertex id="bf7f83d1-9392-4636-a871-b1272ba1a28d" parent="mainLayer">
+                <geometry x="580" y="220" width="215.98558044433594" height="121.73077392578125"/>
+            </vertex>
+            <vertex id="1d59ed61-faba-4313-986c-009d2ed63f8e" parent="mainLayer">
+                <geometry x="901.01" y="210.29810175705325" width="215.98558044433594" height="141.1298065185547"/>
+            </vertex>
+            <vertex id="27733d01-2018-4a25-a103-0f68a562376a" parent="mainLayer">
+                <geometry x="1219.997081197103" y="213.81871729532887" width="166.14289945560654" height="137.610975010195"/>
+            </vertex>
+            <vertex id="b5c52008-3ca4-461c-8576-8890e72666a2" parent="mainLayer">
+                <geometry x="1519.996863911947" y="234.6094942220053" width="166.14276321641347" height="108.38575760715769"/>
+            </vertex>
+            <vertex id="e01f9d48-f8c6-4bdd-afab-04c4d9825b2b" parent="mainLayer">
+                <geometry x="1799.9984727986653" y="234.61000508626307" width="166.14276321641347" height="108.38562555993981"/>
+            </vertex>
+            <vertex id="c6b23955-5a09-45e8-97b8-a0b0eb92b649" parent="mainLayer">
+                <geometry x="1799.9992263793945" y="510.0069653320312" width="166.142640950471" height="108.3857135914184"/>
+            </vertex>
+            <vertex id="b217e55a-7a19-4574-960d-e434ed6c1ebe" parent="mainLayer">
+                <geometry x="1500.0041685994468" y="510.00414286295586" width="166.14249423134" height="108.3857135914184"/>
+            </vertex>
+            <vertex id="e514dbf5-07ed-4df0-a612-e2beeece25f5" parent="mainLayer">
+                <geometry x="1188.996212056478" y="510.00847249348965" width="166.142640950471" height="108.38578695098388"/>
+            </vertex>
+            <vertex id="6a2ba17c-f52e-4174-81de-519fd4a5b9a1" parent="mainLayer">
+                <geometry x="839.9976174926755" y="495.09668019612644" width="166.14278766960197" height="138.2027334385432"/>
+            </vertex>
+            <vertex id="ba3e7c75-043f-40c5-b5dd-e102fc5823a5" parent="mainLayer">
+                <geometry x="480" y="518.71" width="215.98558044433594" height="90.98558044433594"/>
+            </vertex>
+        </vertices>
+        <edges>
+            <edge id="2" source="1" target="bf7f83d1-9392-4636-a871-b1272ba1a28d" style="exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="3" source="bf7f83d1-9392-4636-a871-b1272ba1a28d" target="1d59ed61-faba-4313-986c-009d2ed63f8e" style="exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="4" source="1d59ed61-faba-4313-986c-009d2ed63f8e" target="27733d01-2018-4a25-a103-0f68a562376a" style="exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="5" source="27733d01-2018-4a25-a103-0f68a562376a" target="b5c52008-3ca4-461c-8576-8890e72666a2" style="exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="6" source="b5c52008-3ca4-461c-8576-8890e72666a2" target="e01f9d48-f8c6-4bdd-afab-04c4d9825b2b" style="exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="7" source="e01f9d48-f8c6-4bdd-afab-04c4d9825b2b" target="c6b23955-5a09-45e8-97b8-a0b0eb92b649" style="exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="8" source="c6b23955-5a09-45e8-97b8-a0b0eb92b649" target="b217e55a-7a19-4574-960d-e434ed6c1ebe" style="exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="9" source="b217e55a-7a19-4574-960d-e434ed6c1ebe" target="e514dbf5-07ed-4df0-a612-e2beeece25f5" style="exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="10" source="e514dbf5-07ed-4df0-a612-e2beeece25f5" target="6a2ba17c-f52e-4174-81de-519fd4a5b9a1" style="exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="11" source="6a2ba17c-f52e-4174-81de-519fd4a5b9a1" target="ba3e7c75-043f-40c5-b5dd-e102fc5823a5" style="exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="mainLayer">
+                <points/>
+            </edge>
+        </edges>
+    </canvas>
+</antrobot>
