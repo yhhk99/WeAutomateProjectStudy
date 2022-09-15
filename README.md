@@ -1,15 +1,16 @@
 # WeAutomateProjectStudy
+***
 Huawei RAP WeAutomate base project Study
 本项目是使用Huawei RPA WeAutomate进行编写，项目建立之初版本号为2.1.18，引中途个人原因，导致2.1.18版本丢失，无奈使用3.0.0版本RPA进行项目重新调试，且完全调试通过后进行上传仓库。
 
 ## 目录
 
 
-* ###stu_demo
-#### stu_1_demo
+* ### stu_demo
+* #### stu_1_demo
     第一个RPA项目，输出hello word
 
-#### stu_2_demo
+* #### stu_2_demo
     第二个RPA项目，用于展示RPA部分控件使用，实现了打开百度网页，搜索"论十大关系 知乎”功能，对检索结果进行查看，关闭知乎登录弹窗，复制搜索结果并保存到output文件下的 webTextOutput.xlsx文功能
 
 - ###  ep_demo
