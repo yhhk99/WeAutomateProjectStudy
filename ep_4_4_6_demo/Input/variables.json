@@ -1,0 +1,11 @@
+{
+  "variables" : [ {
+    "group" : "",
+    "name" : "str_6",
+    "type" : "String",
+    "value" : "Welcome+to+Shenzhen",
+    "description" : "",
+    "isEdit" : "true",
+    "direction" : "in"
+  } ]
+}

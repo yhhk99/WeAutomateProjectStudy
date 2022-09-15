@@ -1,0 +1,44 @@
+<antrobot version="2.0" developers="yhhk" desc="WeAutomate RPA初级课程04：数据操作datetime   ">
+    <procedures>
+        <procedure>
+            <action xmlId="b68bcb44-f4e2-40ad-ae81-a8d3a83158ba" ext_name="wa.common" driver_type="common" desc="运行python表达式" return="eval_ret" fail_on_error="True">
+                <command>eval</command>
+                <params>
+                    <param name="value">datetime.datetime(2022,1,12,12,00,00)</param>
+                    <param name="target">import datetime</param>
+                </params>
+            </action>
+            <action xmlId="3d655c03-2db1-4eb5-87b6-ea0fbc331c3d" ext_name="wa.common" driver_type="common" desc="消息窗口" return="messageBox_ret" fail_on_error="True">
+                <command>messageBox</command>
+                <params>
+                    <param name="value">@{eval_ret}</param>
+                </params>
+            </action>
+        </procedure>
+    </procedures>
+    <canvas>
+        <layers>
+            <layer id="rootLayer"/>
+            <layer id="mainLayer" parentLayerId="rootLayer"/>
+        </layers>
+        <vertices>
+            <vertex id="1" parent="mainLayer" isStart="true">
+                <geometry x="1067" y="100" width="72" height="40"/>
+            </vertex>
+            <vertex id="b68bcb44-f4e2-40ad-ae81-a8d3a83158ba" parent="mainLayer">
+                <geometry x="995.007209777832" y="200" width="215.98558044433594" height="120.96154022216797"/>
+            </vertex>
+            <vertex id="3d655c03-2db1-4eb5-87b6-ea0fbc331c3d" parent="mainLayer">
+                <geometry x="995.0144422971293" y="380.99999504822927" width="215.98558044433594" height="90.98558044433594"/>
+            </vertex>
+        </vertices>
+        <edges>
+            <edge id="2" source="1" target="b68bcb44-f4e2-40ad-ae81-a8d3a83158ba" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="3" source="b68bcb44-f4e2-40ad-ae81-a8d3a83158ba" target="3d655c03-2db1-4eb5-87b6-ea0fbc331c3d" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+        </edges>
+    </canvas>
+</antrobot>

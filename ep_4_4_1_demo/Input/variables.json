@@ -1,0 +1,11 @@
+{
+  "variables" : [ {
+    "group" : "",
+    "name" : "str1",
+    "type" : "String",
+    "value" : "Welcome HuaweiRPA",
+    "description" : "",
+    "isEdit" : "false",
+    "direction" : "in"
+  } ]
+}

@@ -1,0 +1,19 @@
+{
+  "variables" : [ {
+    "group" : "",
+    "name" : "MyArray",
+    "type" : "Array",
+    "value" : "[3,21,45,18,22]",
+    "description" : "",
+    "isEdit" : "true",
+    "direction" : "in"
+  }, {
+    "group" : "",
+    "name" : "MaxNum",
+    "type" : "Number",
+    "value" : "",
+    "description" : "",
+    "isEdit" : "false",
+    "direction" : "in"
+  } ]
+}

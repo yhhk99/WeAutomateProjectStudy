@@ -1,0 +1,5 @@
+[2022-03-14 21:35:22]启动机器人 2.18.0
+[2022-03-14 21:35:22]开始执行[脚本] [example4_4_27]
+[NOK][2022-03-14 21:35:22]完成执行[原子命令] [playbackScript.xml 第4行] 运行python表达式 [运行python表达式] [NOK] [RobotUncaughtError] [系统执行错误: 发生了未捕获异常，详情：AttributeError(\"'datetime.datetime' object has no attribute 'striftime'\")]
+[2022-03-14 21:35:22]完成执行[脚本] [example4_4_27] [NOK] [RobotUncaughtError] [系统执行错误: 发生了未捕获异常，详情：AttributeError("'datetime.datetime' object has no attribute 'striftime'")]
+[2022-03-14 21:35:22]结束机器人

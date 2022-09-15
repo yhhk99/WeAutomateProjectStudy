@@ -1,0 +1,16 @@
+[2022-09-15 16:14:20]启动机器人 3.0.0
+[2022-09-15 16:14:20]开始执行[脚本] [example4_5_2]
+[2022-09-15 16:14:21]开始执行[语句块] [playbackScript.xml 第4行] While条件循环 [None]
+[OK][2022-09-15 16:14:24]完成执行[原子命令] [playbackScript.xml 第5行] 消息窗口 [消息窗口] [OK]
+[OK][2022-09-15 16:14:24]完成执行[原子命令] [playbackScript.xml 第11行] 运行python表达式 [运行python表达式] [OK]
+[OK][2022-09-15 16:14:25]完成执行[原子命令] [playbackScript.xml 第5行] 消息窗口 [消息窗口] [OK]
+[OK][2022-09-15 16:14:25]完成执行[原子命令] [playbackScript.xml 第11行] 运行python表达式 [运行python表达式] [OK]
+[OK][2022-09-15 16:14:25]完成执行[原子命令] [playbackScript.xml 第5行] 消息窗口 [消息窗口] [OK]
+[OK][2022-09-15 16:14:25]完成执行[原子命令] [playbackScript.xml 第11行] 运行python表达式 [运行python表达式] [OK]
+[OK][2022-09-15 16:14:26]完成执行[原子命令] [playbackScript.xml 第5行] 消息窗口 [消息窗口] [OK]
+[OK][2022-09-15 16:14:26]完成执行[原子命令] [playbackScript.xml 第11行] 运行python表达式 [运行python表达式] [OK]
+[OK][2022-09-15 16:14:26]完成执行[原子命令] [playbackScript.xml 第5行] 消息窗口 [消息窗口] [OK]
+[OK][2022-09-15 16:14:26]完成执行[原子命令] [playbackScript.xml 第11行] 运行python表达式 [运行python表达式] [OK]
+[OK][2022-09-15 16:14:26]完成执行[语句块] [playbackScript.xml 第4行] While条件循环 [None] [OK]
+[2022-09-15 16:14:26]完成执行[脚本] [example4_5_2] [OK]
+[2022-09-15 16:14:26]结束机器人

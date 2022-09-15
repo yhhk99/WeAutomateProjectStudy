@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<robot-info>
+    <robot>
+        <name>ep_4_4_6_demo</name>
+        <version>1.0.1</version>
+        <obfuscate>false</obfuscate>
+        <designer>studio</designer>
+        <createTime>1647096038241</createTime>
+        <lastModified>1647096106299</lastModified>
+        <description></description>
+        <assetType>project</assetType>
+    </robot>
+    <studio>
+        <version>2.18.0</version>
+        <version_full>2.18.0</version_full>
+    </studio>
+    <requirements/>
+    <officialPlugins>
+        <plugin>
+            <name>wa.string</name>
+            <version>1.0.0</version>
+        </plugin>
+        <plugin>
+            <name>wa.common</name>
+        </plugin>
+    </officialPlugins>
+</robot-info>

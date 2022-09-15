@@ -1,0 +1,19 @@
+{
+  "variables" : [ {
+    "group" : "4_16",
+    "name" : "list_5",
+    "type" : "Array",
+    "value" : "[\"北京\",\"上海\",\"广州\",\"深圳\",\"苏州\",\"香港\"]",
+    "description" : "",
+    "isEdit" : "false",
+    "direction" : "in"
+  }, {
+    "group" : "4_16",
+    "name" : "var",
+    "type" : "String",
+    "value" : "",
+    "description" : "",
+    "isEdit" : "false",
+    "direction" : "in"
+  } ]
+}

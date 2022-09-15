@@ -1,0 +1,55 @@
+<antrobot version="2.0" developers="" desc="">
+    <procedures>
+        <procedure>
+            <action xmlId="7cdc6abf-65c0-452e-b792-1a4f9e92e57b" ext_name="wa.common" driver_type="common" desc="消息窗口" return="messageBox_ret" fail_on_error="True">
+                <command>messageBox</command>
+                <params>
+                    <param name="value">@{str_10}</param>
+                </params>
+            </action>
+            <action xmlId="be03fe54-4385-44f1-b55a-14af5ffee7d0" ext_name="wa.common" driver_type="common" desc="运行python表达式" return="eval_ret" fail_on_error="True">
+                <command>eval</command>
+                <params>
+                    <param name="value">@{str_10}.strip()</param>
+                </params>
+            </action>
+            <action xmlId="ef060f9a-5dda-472a-a5f8-afef60a369df" ext_name="wa.common" driver_type="common" desc="消息窗口" return="messageBox_ret" fail_on_error="True">
+                <command>messageBox</command>
+                <params>
+                    <param name="value">@{eval_ret}</param>
+                </params>
+            </action>
+        </procedure>
+    </procedures>
+    <canvas>
+        <layers>
+            <layer id="rootLayer"/>
+            <layer id="mainLayer" parentLayerId="rootLayer"/>
+        </layers>
+        <vertices>
+            <vertex id="1" parent="mainLayer" isStart="true">
+                <geometry x="1110" y="-20" width="72" height="40"/>
+            </vertex>
+            <vertex id="be03fe54-4385-44f1-b55a-14af5ffee7d0" parent="mainLayer">
+                <geometry x="1009.997209777832" y="250" width="216.0000454829306" height="120.99999504822932"/>
+            </vertex>
+            <vertex id="ef060f9a-5dda-472a-a5f8-afef60a369df" parent="mainLayer">
+                <geometry x="1330.0044422971293" y="339.99999504822927" width="216.0000454829306" height="91.00004089795776"/>
+            </vertex>
+            <vertex id="7cdc6abf-65c0-452e-b792-1a4f9e92e57b" parent="mainLayer">
+                <geometry x="1010.0044422971293" y="90.00441955566404" width="216.0000454829306" height="90.99999394783585"/>
+            </vertex>
+        </vertices>
+        <edges>
+            <edge id="2" source="1" target="7cdc6abf-65c0-452e-b792-1a4f9e92e57b" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="6" source="7cdc6abf-65c0-452e-b792-1a4f9e92e57b" target="be03fe54-4385-44f1-b55a-14af5ffee7d0" style="exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="7" source="be03fe54-4385-44f1-b55a-14af5ffee7d0" target="ef060f9a-5dda-472a-a5f8-afef60a369df" style="exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="mainLayer">
+                <points/>
+            </edge>
+        </edges>
+    </canvas>
+</antrobot>

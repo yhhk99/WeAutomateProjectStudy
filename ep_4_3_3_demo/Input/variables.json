@@ -1,0 +1,19 @@
+{
+  "variables" : [ {
+    "group" : "",
+    "name" : "BirthYear",
+    "type" : "Number",
+    "value" : "2000",
+    "description" : "",
+    "isEdit" : "false",
+    "direction" : "in"
+  }, {
+    "group" : "",
+    "name" : "Age",
+    "type" : "Number",
+    "value" : "",
+    "description" : "",
+    "isEdit" : "false",
+    "direction" : "in"
+  } ]
+}

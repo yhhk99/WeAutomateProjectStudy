@@ -1,0 +1,43 @@
+<antrobot version="2.0" developers="" desc="">
+    <procedures>
+        <procedure>
+            <action xmlId="3f37cd2c-da2c-49c5-9e93-7589e8a483ce" ext_name="wa.common" driver_type="common" desc="运行python表达式" return="@{FullName}" fail_on_error="True">
+                <command>eval</command>
+                <params>
+                    <param name="value">@{FirstName}+@{LastName}</param>
+                </params>
+            </action>
+            <action xmlId="e4e7d3a6-ae94-4323-ac18-5c479e2d5abc" ext_name="wa.common" driver_type="common" desc="消息窗口" return="messageBox_ret" fail_on_error="True">
+                <command>messageBox</command>
+                <params>
+                    <param name="value">@{FullName}</param>
+                </params>
+            </action>
+        </procedure>
+    </procedures>
+    <canvas>
+        <layers>
+            <layer id="rootLayer"/>
+            <layer id="mainLayer" parentLayerId="rootLayer"/>
+        </layers>
+        <vertices>
+            <vertex id="1" parent="mainLayer" isStart="true">
+                <geometry x="1067" y="100" width="72" height="40"/>
+            </vertex>
+            <vertex id="3f37cd2c-da2c-49c5-9e93-7589e8a483ce" parent="mainLayer">
+                <geometry x="995.007209777832" y="200" width="215.98558044433594" height="120.96154022216797"/>
+            </vertex>
+            <vertex id="e4e7d3a6-ae94-4323-ac18-5c479e2d5abc" parent="mainLayer">
+                <geometry x="995.0144422971293" y="380.99999504822927" width="215.98558044433594" height="90.98558044433594"/>
+            </vertex>
+        </vertices>
+        <edges>
+            <edge id="2" source="1" target="3f37cd2c-da2c-49c5-9e93-7589e8a483ce" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="3" source="3f37cd2c-da2c-49c5-9e93-7589e8a483ce" target="e4e7d3a6-ae94-4323-ac18-5c479e2d5abc" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+        </edges>
+    </canvas>
+</antrobot>

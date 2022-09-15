@@ -1,0 +1,5 @@
+[2022-03-14 21:32:03]启动机器人 2.18.0
+[2022-03-14 21:32:03]开始执行[脚本] [example4_4_25]
+[NOK][2022-03-14 21:32:04]完成执行[原子命令] [playbackScript.xml 第4行] 运行python表达式 [运行python表达式] [NOK] [RobotNameError] [用户输入错误: 变量名未定义，或者该变量为敏感变量，不允许在此使用。详情：name 'datetime' is not defined]
+[2022-03-14 21:32:04]完成执行[脚本] [example4_4_25] [NOK] [RobotNameError] [用户输入错误: 变量名未定义，或者该变量为敏感变量，不允许在此使用。详情：name 'datetime' is not defined]
+[2022-03-14 21:32:04]结束机器人

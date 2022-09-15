@@ -1,0 +1,27 @@
+{
+  "variables" : [ {
+    "group" : "",
+    "name" : "ArrayEmp",
+    "type" : "Array",
+    "value" : "[1,23,26,55,147,4569,789]",
+    "description" : "",
+    "isEdit" : "false",
+    "direction" : "in"
+  }, {
+    "group" : "",
+    "name" : "FirstEmp",
+    "type" : "String",
+    "value" : "",
+    "description" : "",
+    "isEdit" : "false",
+    "direction" : "in"
+  }, {
+    "group" : "",
+    "name" : "lenArrE",
+    "type" : "Number",
+    "value" : "",
+    "description" : "",
+    "isEdit" : "false",
+    "direction" : "in"
+  } ]
+}

@@ -1,0 +1,19 @@
+{
+  "variables" : [ {
+    "group" : "4_20",
+    "name" : "list_9",
+    "type" : "Array",
+    "value" : "[\"华为P20\",\"华为Mate\",\"华为P40\",\"华为P30\",\"华为Mate40\"]",
+    "description" : "",
+    "isEdit" : "false",
+    "direction" : "in"
+  }, {
+    "group" : "4-20",
+    "name" : "list_10",
+    "type" : "Array",
+    "value" : "[3,4,5,6,7,8]",
+    "description" : "",
+    "isEdit" : "false",
+    "direction" : "in"
+  } ]
+}

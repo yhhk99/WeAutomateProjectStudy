@@ -1,0 +1,51 @@
+<antrobot version="2.0" developers="" desc="">
+    <procedures>
+        <procedure>
+            <While xmlId="c5079faa-45c4-4997-994a-95e81a724dd6" ext_name="wa.logic" condition="@{Num} &lt;= 5">
+                <action xmlId="ec4dc6f7-e0a4-4e35-b02c-e31c5e31e3da" ext_name="wa.common" driver_type="common" desc="消息窗口" return="messageBox_ret" fail_on_error="True">
+                    <command>messageBox</command>
+                    <params>
+                        <param name="value">@{Num}</param>
+                    </params>
+                </action>
+                <action xmlId="09c0ae7b-9b92-4a35-aae3-62426b992ec7" ext_name="wa.common" driver_type="common" desc="运行python表达式" return="eval_ret" fail_on_error="True">
+                    <command>eval</command>
+                    <params>
+                        <param name="value">@{Num}+1</param>
+                    </params>
+                </action>
+            </While>
+        </procedure>
+    </procedures>
+    <canvas>
+        <layers>
+            <layer id="rootLayer"/>
+            <layer id="mainLayer" parentLayerId="rootLayer"/>
+        </layers>
+        <vertices>
+            <vertex id="1" parent="mainLayer" isStart="true">
+                <geometry x="1067" y="100" width="72" height="40"/>
+            </vertex>
+            <vertex id="c5079faa-45c4-4997-994a-95e81a724dd6" parent="mainLayer">
+                <geometry x="996.0048065185547" y="200" width="213.99997028937597" height="117.99999963320218"/>
+            </vertex>
+            <vertex id="ec4dc6f7-e0a4-4e35-b02c-e31c5e31e3da" parent="mainLayer">
+                <geometry x="720.0192260742188" y="213.5072095944331" width="215.9999985328087" height="91.00004089795776"/>
+            </vertex>
+            <vertex id="09c0ae7b-9b92-4a35-aae3-62426b992ec7" parent="mainLayer">
+                <geometry x="720.0264351184551" y="364.5072504923909" width="215.9999985328087" height="120.99999504822932"/>
+            </vertex>
+        </vertices>
+        <edges>
+            <edge id="2" source="1" target="c5079faa-45c4-4997-994a-95e81a724dd6" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="3" source="c5079faa-45c4-4997-994a-95e81a724dd6" target="ec4dc6f7-e0a4-4e35-b02c-e31c5e31e3da" value="Entry" style="exitX=0;exitY=0.5;entryX=1;entryY=0.5;strokeColor=#62B231;fontColor=#62B231;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="4" source="ec4dc6f7-e0a4-4e35-b02c-e31c5e31e3da" target="09c0ae7b-9b92-4a35-aae3-62426b992ec7" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+        </edges>
+    </canvas>
+</antrobot>

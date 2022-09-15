@@ -1,0 +1,27 @@
+{
+  "variables" : [ {
+    "group" : "",
+    "name" : "LastName",
+    "type" : "String",
+    "value" : "溥仪",
+    "description" : "",
+    "isEdit" : "false",
+    "direction" : "in"
+  }, {
+    "group" : "",
+    "name" : "FirstName",
+    "type" : "String",
+    "value" : "爱新觉罗",
+    "description" : "小小",
+    "isEdit" : "false",
+    "direction" : "in"
+  }, {
+    "group" : "",
+    "name" : "andName",
+    "type" : "String",
+    "value" : "·",
+    "description" : "",
+    "isEdit" : "false",
+    "direction" : "in"
+  } ]
+}

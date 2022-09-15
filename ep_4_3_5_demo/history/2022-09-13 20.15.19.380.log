@@ -1,0 +1,17 @@
+[2022-09-13 20:15:19]启动机器人 3.0.0
+[2022-09-13 20:15:19]开始执行[脚本] [example4_3_5]
+[OK][2022-09-13 20:15:19]完成执行[原子命令] [playbackScript.xml 第4行] 变量赋值 [变量赋值] [OK]
+[OK][2022-09-13 20:15:21]完成执行[原子命令] [playbackScript.xml 第11行] 消息窗口 [消息窗口] [OK]
+ArrayEmp[0] = 1
+ArrayEmp[1] = 23
+ArrayEmp[2] = 26
+ArrayEmp[3] = 55
+ArrayEmp[4] = 147
+ArrayEmp[5] = 4569
+ArrayEmp[6] = 789
+[OK][2022-09-13 20:15:21]完成执行[原子命令] [playbackScript.xml 第17行] 执行python语句 [执行python语句] [OK]
+[OK][2022-09-13 20:15:27]完成执行[原子命令] [playbackScript.xml 第24行] 消息窗口 [消息窗口] [OK]
+[2022-09-13 20:15:27]开始执行[语句块] [playbackScript.xml 第30行] While条件循环 [None]
+[NOK][2022-09-13 20:15:27]完成执行[语句块] [playbackScript.xml 第30行] While条件循环 [None] [NOK] [RobotIllegalConditionStmtError] [系统执行错误: 解析条件语句异常，请检查条件语法，条件详情：i in range(len(EmpName))，错误详情：RobotNameError:变量名未定义，或者该变量为敏感变量，不允许在此使用。详情：name &apos;i&apos; is not defined]
+[2022-09-13 20:15:27]完成执行[脚本] [example4_3_5] [NOK] [RobotIllegalConditionStmtError] [系统执行错误: 解析条件语句异常，请检查条件语法，条件详情：i in range(len(EmpName))，错误详情：RobotNameError:变量名未定义，或者该变量为敏感变量，不允许在此使用。详情：name &apos;i&apos; is not defined]
+[2022-09-13 20:15:27]结束机器人

@@ -1,0 +1,11 @@
+{
+  "variables" : [ {
+    "group" : "",
+    "name" : "Num",
+    "type" : "Number",
+    "value" : "1",
+    "description" : "",
+    "isEdit" : "true",
+    "direction" : "in"
+  } ]
+}

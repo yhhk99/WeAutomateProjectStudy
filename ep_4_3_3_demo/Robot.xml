@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<robot-info>
+    <robot>
+        <name>ep_4_3_3_demo</name>
+        <version>1.0.1</version>
+        <obfuscate>false</obfuscate>
+        <designer>studio</designer>
+        <createTime>1647093094114</createTime>
+        <lastModified>1662988210661</lastModified>
+        <description>Weautomate RPA初级课程03：变量与数据类型
+</description>
+        <assetType>project</assetType>
+    </robot>
+    <studio>
+        <version>3.0.0</version>
+        <version_full>3.0.0</version_full>
+    </studio>
+    <requirements/>
+    <officialPlugins>
+        <plugin>
+            <name>wa.common</name>
+        </plugin>
+    </officialPlugins>
+</robot-info>

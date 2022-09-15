@@ -1,0 +1,31 @@
+<antrobot version="2.0" developers="yhhk" desc="WeAutomate RPA初级课程04：数据操作 datetime">
+    <procedures>
+        <procedure>
+            <action xmlId="e5bc5a81-c5a5-4880-b9bd-f7ad792ad06e" ext_name="wa.system" driver_type="common" desc="获取时间" return="getCurrentTime_ret" fail_on_error="True">
+                <command>getCurrentTime</command>
+                <params>
+                    <param name="target">%Y年%m月%d日 %H:%M:%S</param>
+                </params>
+            </action>
+        </procedure>
+    </procedures>
+    <canvas>
+        <layers>
+            <layer id="rootLayer"/>
+            <layer id="mainLayer" parentLayerId="rootLayer"/>
+        </layers>
+        <vertices>
+            <vertex id="1" parent="mainLayer" isStart="true">
+                <geometry x="1067" y="100" width="72" height="40"/>
+            </vertex>
+            <vertex id="e5bc5a81-c5a5-4880-b9bd-f7ad792ad06e" parent="mainLayer">
+                <geometry x="995.007209777832" y="200" width="216.0000454829306" height="120.99999504822932"/>
+            </vertex>
+        </vertices>
+        <edges>
+            <edge id="2" source="1" target="e5bc5a81-c5a5-4880-b9bd-f7ad792ad06e" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+        </edges>
+    </canvas>
+</antrobot>

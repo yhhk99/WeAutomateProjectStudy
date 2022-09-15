@@ -1,0 +1,43 @@
+<antrobot version="2.0" developers="yhhk" desc="WeAutomate RPA初级课程04：数据操作 datetime">
+    <procedures>
+        <procedure>
+            <action xmlId="e5bc5a81-c5a5-4880-b9bd-f7ad792ad06e" ext_name="wa.system" driver_type="common" desc="获取时间" return="getCurrentTime_ret" fail_on_error="True">
+                <command>getCurrentTime</command>
+                <params>
+                    <param name="target">%Y年%m月%d日 %H:%M:%S</param>
+                </params>
+            </action>
+            <action xmlId="f668cb03-c9be-4aec-86ba-f1a29ca2f422" ext_name="wa.common" driver_type="common" desc="消息窗口" return="messageBox_ret" fail_on_error="True">
+                <command>messageBox</command>
+                <params>
+                    <param name="value">@{getCurrentTime_ret}</param>
+                </params>
+            </action>
+        </procedure>
+    </procedures>
+    <canvas>
+        <layers>
+            <layer id="rootLayer"/>
+            <layer id="mainLayer" parentLayerId="rootLayer"/>
+        </layers>
+        <vertices>
+            <vertex id="1" parent="mainLayer" isStart="true">
+                <geometry x="1067" y="100" width="72" height="40"/>
+            </vertex>
+            <vertex id="e5bc5a81-c5a5-4880-b9bd-f7ad792ad06e" parent="mainLayer">
+                <geometry x="995.007209777832" y="200" width="216.0000454829306" height="120.99999504822932"/>
+            </vertex>
+            <vertex id="f668cb03-c9be-4aec-86ba-f1a29ca2f422" parent="mainLayer">
+                <geometry x="995.0144422971293" y="380.99999504822927" width="216.0000454829306" height="90.99999394783585"/>
+            </vertex>
+        </vertices>
+        <edges>
+            <edge id="2" source="1" target="e5bc5a81-c5a5-4880-b9bd-f7ad792ad06e" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="3" source="e5bc5a81-c5a5-4880-b9bd-f7ad792ad06e" target="f668cb03-c9be-4aec-86ba-f1a29ca2f422" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+        </edges>
+    </canvas>
+</antrobot>

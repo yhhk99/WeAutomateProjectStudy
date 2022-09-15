@@ -1,0 +1,22 @@
+[2022-03-14 22:01:16,837] [INFO] - studio.logger(common_log:178) - 启动机器人 2.18.0
+[2022-03-14 22:01:16,841] [INFO] - studio.logger(common_log:178) - 开始执行[脚本] [example4_5_1]
+[2022-03-14 22:01:16,921] [INFO] - com.huawei.antrobot.utils.communication.communication(is_available_service:67) - test service: password******ully
+[2022-03-14 22:01:16,922] [INFO] - worker.robot.robot(__set_service_running:157) - service started for password******encrypt******decrypt******
+[2022-03-14 22:01:16,969] [INFO] - com.huawei.antrobot.parser.input_parser.input_parser(get_input_variables_or_excel_data:67) - run with variables.json file
+[2022-03-14 22:01:16,973] [INFO] - com.huawei.antrobot.parser.input_parser.input_parser(parse_parameters_json:123) - run with parameters.json file
+[2022-03-14 22:01:16,976] [INFO] - com.huawei.antrobot.framework.decryption.password_util.password_util(parse_json_file:83) - begin to parse parameters.json file
+[2022-03-14 22:01:16,977] [INFO] - com.huawei.antrobot.framework.decryption.password_util.password_util(parse_decrypt_json_data_to_list:129) - begin to parse parameters.json data to context
+[2022-03-14 22:01:16,978] [INFO] - worker.robot.robot(run:123) - run robot with variables.json or excel data
+[2022-03-14 22:01:16,979] [INFO] - com.huawei.antrobot.parser.xml2model.xml2model(parse:110) - Begin parse xml file
+[2022-03-14 22:01:16,996] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running logic: robot line:0 [None] in playbackScript.xml
+[2022-03-14 22:01:17,728] [INFO] - studio.logger(common_log:178) - 开始执行[条件分支] [playbackScript.xml 第4行] 条件分支 (情况: @{Age} <=18)  [None]
+[2022-03-14 22:01:17,728] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running logic: if line:4 [None] in playbackScript.xml
+[2022-03-14 22:01:17,729] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running action: messageBox line:6 [消息窗口] in playbackScript.xml
+[2022-03-14 22:01:19,844] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running action: messageBox line:6 [消息窗口] in playbackScript.xml with result:True
+[2022-03-14 22:01:19,845] [INFO] - studio.logger(common_log:178) - 完成执行[原子命令] [playbackScript.xml 第6行] 消息窗口 [消息窗口] [OK]
+[2022-03-14 22:01:19,846] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running logic: if line:4 [None] in playbackScript.xml with result:True
+[2022-03-14 22:01:19,846] [INFO] - studio.logger(common_log:178) - 完成执行[条件分支] [playbackScript.xml 第4行] 条件分支 (情况: @{Age} <=18) True [None] [OK]
+[2022-03-14 22:01:19,847] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running logic: robot line:0 [None] in playbackScript.xml with result:True
+[2022-03-14 22:01:19,848] [INFO] - studio.logger(common_log:178) - 完成执行[脚本] [example4_5_1] [OK]
+[2022-03-14 22:01:19,865] [INFO] - studio.logger(common_log:178) - 结束机器人
+[2022-03-14 22:01:19,866] [INFO] - __main__.antrobot(<module>:120) - robot finished

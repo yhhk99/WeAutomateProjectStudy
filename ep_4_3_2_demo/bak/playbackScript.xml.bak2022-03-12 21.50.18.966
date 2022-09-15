@@ -1,0 +1,43 @@
+<antrobot version="2.0" developers="" desc="Weautomate RPA初级课程03：变量与数据类型">
+    <procedures>
+        <procedure>
+            <action xmlId="5775ec9e-ae4c-48b0-962f-fe1c0ad5aa56" ext_name="wa.common" driver_type="common" desc="输入对话框" return="Name" fail_on_error="True">
+                <command>system.simpleDialog</command>
+                <params>
+                    <param name="value">请输入名字：</param>
+                </params>
+            </action>
+            <action xmlId="df38dfc4-c98b-4c0a-a9df-554e747cf2f4" ext_name="wa.common" driver_type="common" desc="消息窗口" return="messageBox_ret" fail_on_error="True">
+                <command>messageBox</command>
+                <params>
+                    <param name="value">@{Name}</param>
+                </params>
+            </action>
+        </procedure>
+    </procedures>
+    <canvas>
+        <layers>
+            <layer id="rootLayer"/>
+            <layer id="mainLayer" parentLayerId="rootLayer"/>
+        </layers>
+        <vertices>
+            <vertex id="1" parent="mainLayer" isStart="true">
+                <geometry x="1067" y="100" width="72" height="40"/>
+            </vertex>
+            <vertex id="5775ec9e-ae4c-48b0-962f-fe1c0ad5aa56" parent="mainLayer">
+                <geometry x="995.007209777832" y="200" width="216.0000454829306" height="90.99999394783585"/>
+            </vertex>
+            <vertex id="df38dfc4-c98b-4c0a-a9df-554e747cf2f4" parent="mainLayer">
+                <geometry x="995.0144422971293" y="350.99999394783583" width="216.0000454829306" height="90.99999394783585"/>
+            </vertex>
+        </vertices>
+        <edges>
+            <edge id="2" source="1" target="5775ec9e-ae4c-48b0-962f-fe1c0ad5aa56" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="3" source="5775ec9e-ae4c-48b0-962f-fe1c0ad5aa56" target="df38dfc4-c98b-4c0a-a9df-554e747cf2f4" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+        </edges>
+    </canvas>
+</antrobot>

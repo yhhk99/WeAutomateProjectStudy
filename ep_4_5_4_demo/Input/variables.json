@@ -1,0 +1,11 @@
+{
+  "variables" : [ {
+    "group" : "",
+    "name" : "EmployeeList",
+    "type" : "Array",
+    "value" : "[\"张小凡\",\"李晓明\",\"王大锤\"]",
+    "description" : "",
+    "isEdit" : "false",
+    "direction" : "in"
+  } ]
+}

@@ -1,0 +1,11 @@
+{
+  "variables" : [ {
+    "group" : "",
+    "name" : "str4",
+    "type" : "String",
+    "value" : "Welcome to Huawei rpa Studio",
+    "description" : "",
+    "isEdit" : "false",
+    "direction" : "in"
+  } ]
+}

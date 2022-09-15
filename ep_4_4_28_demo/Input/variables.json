@@ -1,0 +1,27 @@
+{
+  "variables" : [ {
+    "group" : "4_28",
+    "name" : "Year",
+    "type" : "Object",
+    "value" : "",
+    "description" : "",
+    "isEdit" : "false",
+    "direction" : "in"
+  }, {
+    "group" : "4_28",
+    "name" : "month",
+    "type" : "Object",
+    "value" : "",
+    "description" : "",
+    "isEdit" : "false",
+    "direction" : "in"
+  }, {
+    "group" : "4_28",
+    "name" : "day",
+    "type" : "Object",
+    "value" : "",
+    "description" : "",
+    "isEdit" : "false",
+    "direction" : "in"
+  } ]
+}

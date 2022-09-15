@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<robot-info>
+    <robot>
+        <name>ep_4_3_7_demo</name>
+        <version>1.0.1</version>
+        <obfuscate>false</obfuscate>
+        <designer>studio</designer>
+        <createTime>1647092365171</createTime>
+        <lastModified>1647094885209</lastModified>
+        <description>华为云开发课堂初级课程03课：变量与数据类型</description>
+        <assetType>project</assetType>
+    </robot>
+    <studio>
+        <version>2.18.0</version>
+        <version_full>2.18.0</version_full>
+    </studio>
+    <requirements/>
+    <officialPlugins>
+        <plugin>
+            <name>wa.common</name>
+        </plugin>
+    </officialPlugins>
+</robot-info>

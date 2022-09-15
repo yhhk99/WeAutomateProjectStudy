@@ -1,0 +1,5 @@
+[2022-03-12 22:07:14]启动机器人 2.18.0
+[2022-03-12 22:07:14]开始执行[脚本] [example4_3_5]
+[NOK][2022-03-12 22:07:15]完成执行[原子命令] [playbackScript.xml 第4行] 变量赋值 [变量赋值] [NOK] [RobotUncaughtError] [系统执行错误: 发生了未捕获异常，详情：IndexError('list index out of range')]
+[2022-03-12 22:07:15]完成执行[脚本] [example4_3_5] [NOK] [RobotUncaughtError] [系统执行错误: 发生了未捕获异常，详情：IndexError('list index out of range')]
+[2022-03-12 22:07:15]结束机器人

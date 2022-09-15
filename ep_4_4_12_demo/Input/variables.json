@@ -1,0 +1,11 @@
+{
+  "variables" : [ {
+    "group" : "",
+    "name" : "list_1",
+    "type" : "Array",
+    "value" : "[\"Mondy\",\"Tuesday\",\"Wednesday\"]",
+    "description" : "",
+    "isEdit" : "false",
+    "direction" : "in"
+  } ]
+}

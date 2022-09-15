@@ -1,0 +1,43 @@
+<antrobot version="2.0" developers="" desc="">
+    <procedures>
+        <procedure>
+            <action xmlId="6a261807-3fc0-49ad-a5a9-b2b8517fc8ab" ext_name="wa.common" driver_type="common" desc="运行python表达式" return="eval_ret" fail_on_error="True">
+                <command>eval</command>
+                <params>
+                    <param name="value">@{dic_1}.update({"Cuzz":"北京"})</param>
+                </params>
+            </action>
+            <action xmlId="40c0a772-3647-4b2b-9995-76d9d5e93f90" ext_name="wa.common" driver_type="common" desc="消息窗口" return="messageBox_ret" fail_on_error="True">
+                <command>messageBox</command>
+                <params>
+                    <param name="value">@{dic_1}</param>
+                </params>
+            </action>
+        </procedure>
+    </procedures>
+    <canvas>
+        <layers>
+            <layer id="rootLayer"/>
+            <layer id="mainLayer" parentLayerId="rootLayer"/>
+        </layers>
+        <vertices>
+            <vertex id="1" parent="mainLayer" isStart="true">
+                <geometry x="1067" y="100" width="72" height="40"/>
+            </vertex>
+            <vertex id="6a261807-3fc0-49ad-a5a9-b2b8517fc8ab" parent="mainLayer">
+                <geometry x="995.007209777832" y="200" width="216.0000454829306" height="120.99999504822932"/>
+            </vertex>
+            <vertex id="40c0a772-3647-4b2b-9995-76d9d5e93f90" parent="mainLayer">
+                <geometry x="995.0144422971293" y="380.99999504822927" width="216.0000454829306" height="90.99999394783585"/>
+            </vertex>
+        </vertices>
+        <edges>
+            <edge id="2" source="1" target="6a261807-3fc0-49ad-a5a9-b2b8517fc8ab" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="3" source="6a261807-3fc0-49ad-a5a9-b2b8517fc8ab" target="40c0a772-3647-4b2b-9995-76d9d5e93f90" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+        </edges>
+    </canvas>
+</antrobot>

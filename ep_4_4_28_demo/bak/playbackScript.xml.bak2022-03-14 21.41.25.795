@@ -1,0 +1,94 @@
+<antrobot version="2.0" developers="" desc="">
+    <procedures>
+        <procedure>
+            <action xmlId="4aecd4e3-f485-4a95-9911-e17c84a7fa04" ext_name="wa.common" driver_type="common" desc="运行python表达式" fail_on_error="True" return="Year">
+                <command>eval</command>
+                <params>
+                    <param name="value">datetime.datetime.now().year</param>
+                    <param name="target">import datetime</param>
+                </params>
+            </action>
+            <action xmlId="b181ab65-bb89-4519-83c9-08e08ecdd9ac" ext_name="wa.common" driver_type="common" desc="消息窗口" return="messageBox_ret" fail_on_error="True">
+                <command>messageBox</command>
+                <params>
+                    <param name="value">Year</param>
+                </params>
+            </action>
+            <action xmlId="f00d9687-8d82-46f3-9fa9-f86d8f796b01" ext_name="wa.common" driver_type="common" desc="运行python表达式" return="month" fail_on_error="True">
+                <command>eval</command>
+                <params>
+                    <param name="value">datetime.datetime.now().month</param>
+                    <param name="target">import datetime</param>
+                </params>
+            </action>
+            <action xmlId="f83a5b09-190d-4063-95fc-eab9efa98964" ext_name="wa.common" driver_type="common" desc="消息窗口" return="messageBox_ret" fail_on_error="True">
+                <command>messageBox</command>
+                <params>
+                    <param name="value">month</param>
+                </params>
+            </action>
+            <action xmlId="c42734d6-e1be-407a-8c31-3e0e3417a09f" ext_name="wa.common" driver_type="common" desc="运行python表达式" return="day" fail_on_error="True">
+                <command>eval</command>
+                <params>
+                    <param name="value">datetime.datetime.now().day</param>
+                    <param name="target">import datetime</param>
+                </params>
+            </action>
+            <action xmlId="c5f68527-9d49-4201-8bd4-3e7f244e2e6e" ext_name="wa.common" driver_type="common" desc="消息窗口" return="messageBox_ret" fail_on_error="True">
+                <command>messageBox</command>
+                <params>
+                    <param name="value">day</param>
+                </params>
+            </action>
+        </procedure>
+    </procedures>
+    <canvas>
+        <layers>
+            <layer id="rootLayer"/>
+            <layer id="mainLayer" parentLayerId="rootLayer"/>
+        </layers>
+        <vertices>
+            <vertex id="1" parent="mainLayer" isStart="true">
+                <geometry x="1067" y="100" width="72" height="40"/>
+            </vertex>
+            <vertex id="4aecd4e3-f485-4a95-9911-e17c84a7fa04" parent="mainLayer">
+                <geometry x="1159.997209777832" y="270" width="216.0000454829306" height="120.99999504822932"/>
+            </vertex>
+            <vertex id="f00d9687-8d82-46f3-9fa9-f86d8f796b01" parent="mainLayer">
+                <geometry x="710.0044422971293" y="469.99999504822927" width="216.0000454829306" height="120.99999504822932"/>
+            </vertex>
+            <vertex id="c42734d6-e1be-407a-8c31-3e0e3417a09f" parent="mainLayer">
+                <geometry x="779.0116748164266" y="709.9999900964585" width="216.0000454829306" height="120.99994809810741"/>
+            </vertex>
+            <vertex id="c5f68527-9d49-4201-8bd4-3e7f244e2e6e" parent="mainLayer">
+                <geometry x="1149.998907335724" y="739.9999851446878" width="216.0000454829306" height="90.99994699771393"/>
+            </vertex>
+            <vertex id="b181ab65-bb89-4519-83c9-08e08ecdd9ac" parent="mainLayer">
+                <geometry x="840.0044422971293" y="320.99999504822927" width="216.0000454829306" height="90.99999394783585"/>
+            </vertex>
+            <vertex id="f83a5b09-190d-4063-95fc-eab9efa98964" parent="mainLayer">
+                <geometry x="1090.0016748164267" y="529.9999900964585" width="216.0000454829306" height="90.99999394783585"/>
+            </vertex>
+        </vertices>
+        <edges>
+            <edge id="2" source="1" target="4aecd4e3-f485-4a95-9911-e17c84a7fa04" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="5" source="c42734d6-e1be-407a-8c31-3e0e3417a09f" target="c5f68527-9d49-4201-8bd4-3e7f244e2e6e" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="6" source="4aecd4e3-f485-4a95-9911-e17c84a7fa04" target="b181ab65-bb89-4519-83c9-08e08ecdd9ac" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="7" source="b181ab65-bb89-4519-83c9-08e08ecdd9ac" target="f00d9687-8d82-46f3-9fa9-f86d8f796b01" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="8" source="f00d9687-8d82-46f3-9fa9-f86d8f796b01" target="f83a5b09-190d-4063-95fc-eab9efa98964" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="9" source="f83a5b09-190d-4063-95fc-eab9efa98964" target="c42734d6-e1be-407a-8c31-3e0e3417a09f" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+        </edges>
+    </canvas>
+</antrobot>

@@ -1,0 +1,33 @@
+[2022-09-15 15:29:03,505] [INFO] - studio.logger(common_log:178) - 启动机器人 3.0.0
+[2022-09-15 15:29:03,510] [INFO] - studio.logger(common_log:178) - 开始执行[脚本] [example4_4_28]
+[2022-09-15 15:29:03,573] [INFO] - com.huawei.antrobot.utils.communication.communication(is_available_service:67) - test service: password******ully
+[2022-09-15 15:29:03,574] [INFO] - worker.robot.robot(__set_service_running:157) - service started for password******encrypt******decrypt******
+[2022-09-15 15:29:04,420] [INFO] - com.huawei.antrobot.parser.input_parser.input_parser(get_input_variables_or_excel_data:67) - run with variables.json file
+[2022-09-15 15:29:04,421] [INFO] - com.huawei.antrobot.parser.input_parser.input_parser(parse_parameters_json:123) - run with parameters.json file
+[2022-09-15 15:29:04,422] [INFO] - com.huawei.antrobot.framework.decryption.password_util.password_util(parse_json_file:48) - begin to parse parameters.json file
+[2022-09-15 15:29:04,422] [INFO] - com.huawei.antrobot.framework.decryption.password_util.password_util(parse_decrypt_json_data_to_list:66) - begin to parse parameters.json data to context
+[2022-09-15 15:29:04,426] [INFO] - worker.robot.robot(run:123) - run robot with variables.json or excel data
+[2022-09-15 15:29:04,427] [INFO] - com.huawei.antrobot.parser.xml2model.xml2model(parse:109) - Begin parse xml file
+[2022-09-15 15:29:04,585] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running logic: robot line:0 [None] in playbackScript.xml
+[2022-09-15 15:29:04,586] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running action: eval line:4 [运行python表达式] in playbackScript.xml
+[2022-09-15 15:29:04,997] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running action: eval line:4 [运行python表达式] in playbackScript.xml with result:True
+[2022-09-15 15:29:05,025] [INFO] - studio.logger(common_log:178) - 完成执行[原子命令] [playbackScript.xml 第4行] 运行python表达式 [运行python表达式] [OK]
+[2022-09-15 15:29:05,026] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running action: messageBox line:11 [消息窗口] in playbackScript.xml
+[2022-09-15 15:29:07,837] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running action: messageBox line:11 [消息窗口] in playbackScript.xml with result:True
+[2022-09-15 15:29:07,838] [INFO] - studio.logger(common_log:178) - 完成执行[原子命令] [playbackScript.xml 第11行] 消息窗口 [消息窗口] [OK]
+[2022-09-15 15:29:07,840] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running action: eval line:17 [运行python表达式] in playbackScript.xml
+[2022-09-15 15:29:07,847] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running action: eval line:17 [运行python表达式] in playbackScript.xml with result:True
+[2022-09-15 15:29:07,848] [INFO] - studio.logger(common_log:178) - 完成执行[原子命令] [playbackScript.xml 第17行] 运行python表达式 [运行python表达式] [OK]
+[2022-09-15 15:29:07,849] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running action: messageBox line:24 [消息窗口] in playbackScript.xml
+[2022-09-15 15:29:08,558] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running action: messageBox line:24 [消息窗口] in playbackScript.xml with result:True
+[2022-09-15 15:29:08,559] [INFO] - studio.logger(common_log:178) - 完成执行[原子命令] [playbackScript.xml 第24行] 消息窗口 [消息窗口] [OK]
+[2022-09-15 15:29:08,560] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running action: eval line:30 [运行python表达式] in playbackScript.xml
+[2022-09-15 15:29:08,567] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running action: eval line:30 [运行python表达式] in playbackScript.xml with result:True
+[2022-09-15 15:29:08,576] [INFO] - studio.logger(common_log:178) - 完成执行[原子命令] [playbackScript.xml 第30行] 运行python表达式 [运行python表达式] [OK]
+[2022-09-15 15:29:08,577] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - start running action: messageBox line:37 [消息窗口] in playbackScript.xml
+[2022-09-15 15:29:09,167] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running action: messageBox line:37 [消息窗口] in playbackScript.xml with result:True
+[2022-09-15 15:29:09,168] [INFO] - studio.logger(common_log:178) - 完成执行[原子命令] [playbackScript.xml 第37行] 消息窗口 [消息窗口] [OK]
+[2022-09-15 15:29:09,169] [INFO] - com.huawei.antrobot.logging.log_output.log_output(log_output_start_end:150) - end running logic: robot line:0 [None] in playbackScript.xml with result:True
+[2022-09-15 15:29:09,170] [INFO] - studio.logger(common_log:178) - 完成执行[脚本] [example4_4_28] [OK]
+[2022-09-15 15:29:09,254] [INFO] - studio.logger(common_log:178) - 结束机器人
+[2022-09-15 15:29:09,255] [INFO] - __main__.antrobot(<module>:118) - robot finished

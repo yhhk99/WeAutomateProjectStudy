@@ -1,0 +1,11 @@
+{
+  "variables" : [ {
+    "group" : "",
+    "name" : "str_7",
+    "type" : "String",
+    "value" : "20+20=400",
+    "description" : "",
+    "isEdit" : "false",
+    "direction" : "in"
+  } ]
+}

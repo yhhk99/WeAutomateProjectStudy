@@ -1,0 +1,55 @@
+<antrobot version="2.0" developers="yhhk" desc=" 逻辑控制语句">
+    <procedures>
+        <procedure>
+            <If xmlId="36bb2e42-f88f-4b2a-9c9f-8194cd5e30d2" ext_name="wa.logic" condition="@{isPublished}">
+                <do>
+                    <action xmlId="91e02b17-522e-4136-ae52-779bc4cf4f45" ext_name="wa.common" driver_type="common" desc="消息窗口" return="messageBox_ret" fail_on_error="True">
+                        <command>messageBox</command>
+                        <params>
+                            <param name="value">产品已发布</param>
+                        </params>
+                    </action>
+                </do>
+                <else>
+                    <action xmlId="6bd4b505-3749-4a1d-a33f-e4931d1cdc51" ext_name="wa.common" driver_type="common" desc="消息窗口" return="messageBox_ret" fail_on_error="True">
+                        <command>messageBox</command>
+                        <params>
+                            <param name="value">产品未发布</param>
+                        </params>
+                    </action>
+                </else>
+            </If>
+        </procedure>
+    </procedures>
+    <canvas>
+        <layers>
+            <layer id="rootLayer"/>
+            <layer id="mainLayer" parentLayerId="rootLayer"/>
+        </layers>
+        <vertices>
+            <vertex id="1" parent="mainLayer" isStart="true">
+                <geometry x="1067" y="100" width="72" height="40"/>
+            </vertex>
+            <vertex id="36bb2e42-f88f-4b2a-9c9f-8194cd5e30d2" parent="mainLayer">
+                <geometry x="996.0048065185547" y="200" width="214" height="118"/>
+            </vertex>
+            <vertex id="91e02b17-522e-4136-ae52-779bc4cf4f45" parent="mainLayer">
+                <geometry x="720.0192260742188" y="213.5072095944331" width="216" height="91"/>
+            </vertex>
+            <vertex id="6bd4b505-3749-4a1d-a33f-e4931d1cdc51" parent="mainLayer">
+                <geometry x="1270.0047768079307" y="213.5072095944331" width="216" height="91"/>
+            </vertex>
+        </vertices>
+        <edges>
+            <edge id="2" source="1" target="36bb2e42-f88f-4b2a-9c9f-8194cd5e30d2" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="3" source="36bb2e42-f88f-4b2a-9c9f-8194cd5e30d2" target="91e02b17-522e-4136-ae52-779bc4cf4f45" value="True" style="exitX=0;exitY=0.5;entryX=1;entryY=0.5;strokeColor=#62B231;fontColor=#62B231;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="4" source="36bb2e42-f88f-4b2a-9c9f-8194cd5e30d2" target="6bd4b505-3749-4a1d-a33f-e4931d1cdc51" value="False" style="exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeColor=#EE3440;fontColor=#EE3440;" parent="mainLayer">
+                <points/>
+            </edge>
+        </edges>
+    </canvas>
+</antrobot>

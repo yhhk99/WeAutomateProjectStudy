@@ -1,0 +1,5 @@
+[2022-03-14 21:17:09]启动机器人 2.18.0
+[2022-03-14 21:17:09]开始执行[脚本] [example4_4_23]
+[NOK][2022-03-14 21:17:10]完成执行[原子命令] [playbackScript.xml 第4行] 运行python表达式 [运行python表达式] [NOK] [RobotUncaughtError] [系统执行错误: 发生了未捕获异常，详情：AttributeError(\"'dict' object has no attribute 'name'\")]
+[2022-03-14 21:17:10]完成执行[脚本] [example4_4_23] [NOK] [RobotUncaughtError] [系统执行错误: 发生了未捕获异常，详情：AttributeError("'dict' object has no attribute 'name'")]
+[2022-03-14 21:17:10]结束机器人

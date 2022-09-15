@@ -1,0 +1,11 @@
+{
+  "variables" : [ {
+    "group" : "",
+    "name" : "str_10",
+    "type" : "String",
+    "value" : "  We are Cuzz  ",
+    "description" : "",
+    "isEdit" : "false",
+    "direction" : "in"
+  } ]
+}

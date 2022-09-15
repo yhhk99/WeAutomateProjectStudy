@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<robot-info>
+    <robot>
+        <name>ep_4_4_16_demo</name>
+        <version>1.0.1</version>
+        <obfuscate>false</obfuscate>
+        <designer>studio</designer>
+        <createTime>1647097178910</createTime>
+        <lastModified>1663228550826</lastModified>
+        <description></description>
+        <assetType>project</assetType>
+    </robot>
+    <studio>
+        <version>3.0.0</version>
+        <version_full>3.0.0</version_full>
+    </studio>
+    <requirements/>
+    <officialPlugins>
+        <plugin>
+            <name>wa.logic</name>
+        </plugin>
+        <plugin>
+            <name>wa.common</name>
+        </plugin>
+    </officialPlugins>
+</robot-info>

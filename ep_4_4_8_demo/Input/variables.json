@@ -1,0 +1,11 @@
+{
+  "variables" : [ {
+    "group" : "",
+    "name" : "str_8",
+    "type" : "String",
+    "value" : "[Welcome,to,huawei]]",
+    "description" : "",
+    "isEdit" : "false",
+    "direction" : "in"
+  } ]
+}

@@ -1,0 +1,11 @@
+{
+  "variables" : [ {
+    "group" : "4_23",
+    "name" : "dic_3",
+    "type" : "Object",
+    "value" : "{\"name\":\"Cuzz\",\"爱好\":\"篮球\",\"职业\":\"工程师\"}",
+    "description" : "",
+    "isEdit" : "false",
+    "direction" : "in"
+  } ]
+}

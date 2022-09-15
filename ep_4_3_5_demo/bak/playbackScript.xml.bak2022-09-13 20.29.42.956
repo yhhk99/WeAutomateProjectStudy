@@ -1,0 +1,70 @@
+<antrobot version="2.0" developers="" desc="">
+    <procedures>
+        <procedure>
+            <action xmlId="1833239d-327c-47a7-b073-13abe6825e17" ext_name="wa.common" driver_type="common" desc="变量赋值" return="FirstEmp" fail_on_error="True">
+                <command>assign</command>
+                <params>
+                    <param name="global">False</param>
+                    <param name="value">@{ArrayEmp}[0]</param>
+                </params>
+            </action>
+            <action xmlId="66c8445a-9fb4-4169-8ad7-565277b79625" ext_name="wa.common" driver_type="common" desc="消息窗口" return="messageBox_ret" fail_on_error="True">
+                <command>messageBox</command>
+                <params>
+                    <param name="value">@{FirstEmp}</param>
+                </params>
+            </action>
+            <action xmlId="c49ec06c-977e-41af-b7c8-20817f2ef359" ext_name="wa.common" driver_type="common" desc="执行python语句" fail_on_error="True">
+                <command>exec.statement</command>
+                <params>
+                    <param name="value">for i in range(len(ArrayEmp)):
+   print("ArrayEmp[%d] = %d" %(i, ArrayEmp[i]))
+</param>
+                </params>
+            </action>
+            <action xmlId="9441e55e-7328-4a92-97df-04b757f844aa" ext_name="wa.common" driver_type="common" desc="消息窗口" return="messageBox_ret" fail_on_error="True">
+                <command>messageBox</command>
+                <params>
+                    <param name="value">@{ArrayEmp}</param>
+                </params>
+            </action>
+        </procedure>
+    </procedures>
+    <canvas>
+        <layers>
+            <layer id="rootLayer"/>
+            <layer id="mainLayer" parentLayerId="rootLayer"/>
+        </layers>
+        <vertices>
+            <vertex id="1" parent="mainLayer" isStart="true">
+                <geometry x="1067" y="100" width="72" height="40"/>
+            </vertex>
+            <vertex id="1833239d-327c-47a7-b073-13abe6825e17" parent="mainLayer">
+                <geometry x="995.007209777832" y="200" width="216" height="121"/>
+            </vertex>
+            <vertex id="66c8445a-9fb4-4169-8ad7-565277b79625" parent="mainLayer">
+                <geometry x="995.0144422971293" y="380.99999504822927" width="216" height="91"/>
+            </vertex>
+            <vertex id="9441e55e-7328-4a92-97df-04b757f844aa" parent="mainLayer">
+                <geometry x="995.01" y="741" width="216" height="91"/>
+            </vertex>
+            <vertex id="c49ec06c-977e-41af-b7c8-20817f2ef359" parent="mainLayer">
+                <geometry x="994.01" y="570" width="216" height="91"/>
+            </vertex>
+        </vertices>
+        <edges>
+            <edge id="2" source="1" target="1833239d-327c-47a7-b073-13abe6825e17" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="3" source="1833239d-327c-47a7-b073-13abe6825e17" target="66c8445a-9fb4-4169-8ad7-565277b79625" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="5" source="66c8445a-9fb4-4169-8ad7-565277b79625" target="c49ec06c-977e-41af-b7c8-20817f2ef359" style="exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="12" source="c49ec06c-977e-41af-b7c8-20817f2ef359" target="9441e55e-7328-4a92-97df-04b757f844aa" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitDx=0;exitDy=0;" parent="mainLayer">
+                <points/>
+            </edge>
+        </edges>
+    </canvas>
+</antrobot>

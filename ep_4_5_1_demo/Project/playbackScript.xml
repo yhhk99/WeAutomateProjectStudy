@@ -1,0 +1,55 @@
+<antrobot version="2.0" developers="" desc="">
+    <procedures>
+        <procedure>
+            <If xmlId="15b4d5b1-816b-44ea-9856-7541832a49be" ext_name="wa.logic" condition="@{Age} &lt;=18">
+                <do>
+                    <action xmlId="90b2eb33-2404-4d25-8130-8bfd729dea57" ext_name="wa.common" driver_type="common" desc="消息窗口" return="messageBox_ret" fail_on_error="True">
+                        <command>messageBox</command>
+                        <params>
+                            <param name="value">未成年人</param>
+                        </params>
+                    </action>
+                </do>
+                <else>
+                    <action xmlId="8e0f54c1-e8d0-4f19-ab64-a2f3ab60c555" ext_name="wa.common" driver_type="common" desc="消息窗口" return="messageBox_ret" fail_on_error="True">
+                        <command>messageBox</command>
+                        <params>
+                            <param name="value">成年人</param>
+                        </params>
+                    </action>
+                </else>
+            </If>
+        </procedure>
+    </procedures>
+    <canvas>
+        <layers>
+            <layer id="rootLayer"/>
+            <layer id="mainLayer" parentLayerId="rootLayer"/>
+        </layers>
+        <vertices>
+            <vertex id="1" parent="mainLayer" isStart="true">
+                <geometry x="1067" y="100" width="72" height="40"/>
+            </vertex>
+            <vertex id="15b4d5b1-816b-44ea-9856-7541832a49be" parent="mainLayer">
+                <geometry x="996.0048065185547" y="200" width="213.99997028937597" height="117.99999963320218"/>
+            </vertex>
+            <vertex id="90b2eb33-2404-4d25-8130-8bfd729dea57" parent="mainLayer">
+                <geometry x="720.0192260742188" y="213.5072095944331" width="215.9999985328087" height="91.00004089795776"/>
+            </vertex>
+            <vertex id="8e0f54c1-e8d0-4f19-ab64-a2f3ab60c555" parent="mainLayer">
+                <geometry x="1270.0047768079307" y="213.5072095944331" width="216.0000454829306" height="91.00004089795776"/>
+            </vertex>
+        </vertices>
+        <edges>
+            <edge id="2" source="1" target="15b4d5b1-816b-44ea-9856-7541832a49be" style="exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="3" source="15b4d5b1-816b-44ea-9856-7541832a49be" target="90b2eb33-2404-4d25-8130-8bfd729dea57" value="True" style="exitX=0;exitY=0.5;entryX=1;entryY=0.5;strokeColor=#62B231;fontColor=#62B231;" parent="mainLayer">
+                <points/>
+            </edge>
+            <edge id="4" source="15b4d5b1-816b-44ea-9856-7541832a49be" target="8e0f54c1-e8d0-4f19-ab64-a2f3ab60c555" value="False" style="exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeColor=#EE3440;fontColor=#EE3440;" parent="mainLayer">
+                <points/>
+            </edge>
+        </edges>
+    </canvas>
+</antrobot>
