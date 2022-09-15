@@ -5,7 +5,7 @@ Huawei RAP WeAutomate base project Study
 ## 目录
 
 
-* ###  stu_demo
+* ###stu_demo
 #### stu_1_demo
     第一个RPA项目，输出hello word
 
