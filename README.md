@@ -30,7 +30,7 @@ IT行业相对其他一般传统行业更新速度更快，一旦停止学习很
         使用组件："eval 运行python表达式"，将字符串中大写字母转化为小写字母
 
     * #### ep_4_4_4_demo
-    使用组件："string.contain-包含子串" 检查待处理字符串中是否包含子串，如果包含，输出contain，否则输出NotContain
+        使用组件："string.contain-包含子串" 检查待处理字符串中是否包含子串，如果包含，输出contain，否则输出NotContain
 
     * #### ep_4_4_6_demo
         使用组件："string.split - 分割字符串",实现string类型的全局变量按要求分割
@@ -107,8 +107,7 @@ IT行业相对其他一般传统行业更新速度更快，一旦停止学习很
 
     
 * ### stu_demo
-
-    * * #### stu_1_demo
+    *  #### stu_1_demo
             第一个RPA项目，输出hello word
-    * * #### stu_2_demo
+    * #### stu_2_demo
             第二个RPA项目，用于展示RPA部分控件使用，实现了打开百度网页，搜索"论十大关系 知乎”功能，对检索结果进行查看，关闭知乎登录弹窗，复制搜索结果并保存到output文件下的 webTextOutput.xlsx文功能
