@@ -15,6 +15,7 @@ IT行业相对其他一般传统行业更新速度更快，一旦停止学习很
 
 ## 项目主要目录如下
 * ### 简介
+        项目中使用WeAutomate-studio==2.1.18
 * ### 学习路线
 * ###  
 
@@ -22,57 +23,38 @@ IT行业相对其他一般传统行业更新速度更快，一旦停止学习很
 
     * #### ep_4_3_7_demo
             使用组件："eval 运用python表达式"，判断array中最大的数值
-
     * #### ep_4_3_6_demo
             使用组件："eval 运用python表达式", 拼接多个字符串
-
     * #### ep_4_4_1_demo
             使用组件："eval 运行python表达式"，将字符串中大写字母转化为小写字母
-
     * #### ep_4_4_4_demo
             使用组件："string.contain-包含子串" 检查待处理字符串中是否包含子串，如果包含，输出contain，否则输出NotContain
-
     * #### ep_4_4_6_demo
             使用组件："string.split - 分割字符串",实现string类型的全局变量按要求分割
-
-
     * #### ep_4_4_7_demo
             使用组件："eval 运用python表达式"，实现string类型中字符替换，类似python str.replace("A","B")
-
     * #### ep_4_4_8_demo
             使用组件："eval 运用python表达式"，实现将string类型的值拼接到给其他变量 python str.join()
-
     * #### ep_4_4_10_demo
             使用组件："eval 运用python表达式"，实现去除String类型值前的空格，python str.strip()
-
     * #### ep_4_4_12_demo
             使用组件："eval 运用python表达式"，实现在Array类型的全局变量后添加值，python list.append()
-
     * #### ep_4_4_16_demo
             使用组件："流程控制 For",实现循环输出全局变量中Array类型中的值
-
     * #### ep_4_4_17_demo
-
     * #### ep_4_4_18_demo
-
-
     * #### ep_4_4_20_demo
             使用组件："eval 运用python表达式"，实现更新全局变量Arrayt类型中的值
     * #### ep_4_4_21_demo
             使用组件："eval 运用python表达式"，实现更新全局变量Object类型中的值
-
     * #### ep_4_4_22_demo
             使用组件："eval 运用python表达式"，实现删除全局变量Object类型中特定的值
-
     * #### ep_4_4_23_demo
             使用组件："getObjectValuee-字典取值"，实现获取全局变量Object类型中特定值
-        
     * #### ep_4_4_24_demo
             使用组件："getCurrentTime-获取时间"，实现输出当前日期和时间功能
-
     * #### ep_4_4_25_demo
             使用组件："eval 运用python表达式"，调用datetime包，实现输出指定日期和时间功能
-
     * #### ep_4_4_27_demo
             使用组件："eval 运用python表达式"，调用datetime包，实现输出当前日期和时间
 
